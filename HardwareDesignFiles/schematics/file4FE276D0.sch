@@ -1,0 +1,204 @@
+EESchema Schematic File Version 2  date Mon Sep 10 08:55:54 2012
+LIBS:bonefpga-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 6 7
+Title "FPGA Bank 0"
+Date "10 sep 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 7150 5300
+NoConn ~ 7150 5100
+NoConn ~ 7150 4900
+NoConn ~ 7150 4700
+NoConn ~ 7150 4500
+NoConn ~ 7150 4300
+NoConn ~ 7150 4100
+NoConn ~ 7150 3900
+NoConn ~ 7150 3700
+NoConn ~ 7150 3500
+NoConn ~ 7150 3300
+NoConn ~ 7150 3100
+NoConn ~ 7150 2900
+NoConn ~ 7150 2700
+NoConn ~ 7150 2500
+NoConn ~ 7150 2300
+NoConn ~ 7150 2100
+NoConn ~ 7150 1900
+NoConn ~ 7150 1700
+NoConn ~ 7150 1500
+Wire Wire Line
+	2800 3600 3000 3600
+Wire Wire Line
+	3000 3600 3000 5300
+Wire Wire Line
+	3000 5300 4100 5300
+Wire Wire Line
+	2800 3450 3100 3450
+Wire Wire Line
+	3100 3450 3100 4900
+Wire Wire Line
+	3100 4900 4100 4900
+Wire Wire Line
+	2800 3300 3200 3300
+Wire Wire Line
+	3200 3300 3200 4500
+Wire Wire Line
+	3200 4500 4100 4500
+Wire Wire Line
+	2800 3150 3300 3150
+Wire Wire Line
+	3300 3150 3300 4100
+Wire Wire Line
+	3300 4100 4100 4100
+Wire Wire Line
+	2800 3000 3400 3000
+Wire Wire Line
+	3400 3000 3400 3700
+Wire Wire Line
+	3400 3700 4100 3700
+Wire Wire Line
+	2800 2850 3500 2850
+Wire Wire Line
+	3500 2850 3500 3300
+Wire Wire Line
+	3500 3300 4100 3300
+Wire Wire Line
+	2800 2700 3600 2700
+Wire Wire Line
+	3600 2700 3600 2900
+Wire Wire Line
+	3600 2900 4100 2900
+Wire Wire Line
+	2800 2550 3050 2550
+Wire Wire Line
+	3050 2550 3050 2500
+Wire Wire Line
+	3050 2500 4100 2500
+Wire Wire Line
+	2800 2400 3050 2400
+Wire Wire Line
+	3050 2400 3050 2100
+Wire Wire Line
+	3050 2100 4100 2100
+Wire Wire Line
+	2800 2250 2950 2250
+Wire Wire Line
+	2950 2250 2950 1700
+Wire Wire Line
+	2950 1700 4100 1700
+Wire Wire Line
+	4100 1500 1400 1500
+Wire Wire Line
+	1400 1500 1400 2250
+Wire Wire Line
+	1400 2250 1450 2250
+Wire Wire Line
+	4100 1900 4000 1900
+Wire Wire Line
+	4000 1900 4000 1400
+Wire Wire Line
+	4000 1400 1300 1400
+Wire Wire Line
+	1300 1400 1300 2400
+Wire Wire Line
+	1300 2400 1450 2400
+Wire Wire Line
+	4100 2300 3900 2300
+Wire Wire Line
+	3900 2300 3900 1300
+Wire Wire Line
+	3900 1300 1200 1300
+Wire Wire Line
+	1200 1300 1200 2550
+Wire Wire Line
+	1200 2550 1450 2550
+Wire Wire Line
+	4100 2700 3800 2700
+Wire Wire Line
+	3800 2700 3800 1200
+Wire Wire Line
+	3800 1200 1100 1200
+Wire Wire Line
+	1100 1200 1100 2700
+Wire Wire Line
+	1100 2700 1450 2700
+Wire Wire Line
+	4100 3100 3700 3100
+Wire Wire Line
+	3700 3100 3700 1100
+Wire Wire Line
+	3700 1100 1000 1100
+Wire Wire Line
+	1000 1100 1000 2850
+Wire Wire Line
+	1000 2850 1450 2850
+Wire Wire Line
+	4100 3500 3900 3500
+Wire Wire Line
+	3900 3500 3900 3800
+Wire Wire Line
+	3900 3800 1300 3800
+Wire Wire Line
+	1300 3800 1300 3000
+Wire Wire Line
+	1300 3000 1450 3000
+Wire Wire Line
+	4100 3900 1200 3900
+Wire Wire Line
+	1200 3900 1200 3150
+Wire Wire Line
+	1200 3150 1450 3150
+Wire Wire Line
+	4100 4300 1100 4300
+Wire Wire Line
+	1100 4300 1100 3300
+Wire Wire Line
+	1100 3300 1450 3300
+Wire Wire Line
+	4100 4700 1000 4700
+Wire Wire Line
+	1000 4700 1000 3450
+Wire Wire Line
+	1000 3450 1450 3450
+Wire Wire Line
+	4100 5100 900  5100
+Wire Wire Line
+	900  5100 900  3600
+Wire Wire Line
+	900  3600 1450 3600
+$Comp
+L FPGA_20_PIN_HEADER U601
+U 2 1 500F42DA
+P 2700 3250
+F 0 "U601" H 2600 4400 60  0000 C CNN
+F 1 "FPGA_20_PIN_HEADER" H 2600 2750 60  0000 C CNN
+	2    2700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_20_PIN_HEADER U601
+U 1 1 500F42C2
+P 1750 3250
+F 0 "U601" H 1650 4400 60  0000 C CNN
+F 1 "FPGA_20_PIN_HEADER" H 1650 2750 60  0000 C CNN
+	1    1750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC6SLX25FTG256 U602
+U 2 1 4FE55175
+P 11050 4900
+F 0 "U602" H 11100 4950 60  0000 C CNN
+F 1 "XC6SLX25FTG256" H 4750 4000 60  0000 C CNN
+	2    11050 4900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

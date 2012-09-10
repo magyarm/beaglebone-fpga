@@ -1,0 +1,3363 @@
+PCBNEW-LibModule-V1  Mon Aug  6 18:58:15 2012
+# encoding utf-8
+$INDEX
+3_Jumper
+DC_Barrel
+JTAG_6_Header
+LTC3456
+LTC3546
+L_5_7x_4_7
+Oscillator
+SD_Card
+SOT363
+TSSOP8
+XC6SLX25FTG256
+blue_led
+eepromSwitch
+fpga_header
+pwr_switch
+tssop-24
+$EndINDEX
+$MODULE 3_Jumper
+Po 0 0 0 15 50187E42 00000000 ~~
+Li 3_Jumper
+Sc 00000000
+AR
+Op 0 0 0
+T0 -787 1181 600 600 0 120 N V 21 N "3_Jumper"
+T1 -1181 -1181 600 600 0 120 N V 21 N "VAL**"
+DS -2756 -787 787 -787 150 21
+DS 787 -787 787 787 150 21
+DS 787 787 -2756 787 150 21
+DS -2756 787 -2756 -787 150 21
+$PAD
+Sh "1" C 402 402 0 0 0
+Dr 320 0 0
+At STD N 00E00001
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 402 402 0 0 0
+Dr 320 0 0
+At STD N 00E00001
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "3" C 402 402 0 0 0
+Dr 320 0 0
+At STD N 00E00001
+Ne 0 ""
+Po -2000 0
+$EndPAD
+$EndMODULE  3_Jumper
+$MODULE L_5_7x_4_7
+Po 0 0 0 15 50188975 00000000 ~~
+Li L_5_7x_4_7
+Sc 00000000
+AR
+Op 0 0 0
+T0 984 1850 600 600 0 120 N V 21 N "L_5_7x_4_7"
+T1 591 -1850 600 600 0 120 N V 21 N "VAL**"
+DS 2362 1339 -551 1339 150 21
+DS -551 1339 -551 -1339 150 21
+DS -551 -1339 2362 -1339 150 21
+DS 2362 -1339 2362 1299 150 21
+$PAD
+Sh "1" R 630 2244 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 630 2244 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1850 0
+$EndPAD
+$EndMODULE  L_5_7x_4_7
+$MODULE DC_Barrel
+Po 0 0 0 15 50189013 00000000 ~~
+Li DC_Barrel
+Sc 00000000
+AR
+Op 0 0 0
+T0 -472 2165 600 600 0 120 N V 21 N "DC_Barrel"
+T1 -2717 -3543 600 600 0 120 N V 21 N "VAL**"
+DS -5394 1654 -3150 1654 150 21
+DS -5394 -1732 -3150 -1732 150 21
+DS -5394 1221 -5394 1654 150 21
+DS -5394 1614 -5394 1417 150 21
+DS -5394 -1102 -5394 -1732 150 21
+DS -5393 -1181 -5393 1260 150 21
+$PAD
+Sh "1" R 394 1378 0 0 0
+Dr 0 0 0
+At STD N 00E00001
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 394 1181 0 0 0
+Dr 0 0 0
+At STD N 00E00001
+Ne 0 ""
+Po -2362 0
+$EndPAD
+$EndMODULE  DC_Barrel
+$MODULE pwr_switch
+Po 0 0 0 15 50189A12 00000000 ~~
+Li pwr_switch
+Sc 00000000
+AR
+Op 0 0 0
+T0 -354 1969 600 600 0 120 N V 21 N "pwr_switch"
+T1 -1181 -2559 600 600 0 120 N V 21 N "VAL**"
+DS -787 -984 -787 984 150 21
+DS 3150 -984 3150 984 150 21
+DS 3150 984 -787 984 150 21
+DS -787 -984 3150 -984 150 21
+$PAD
+Sh "1" C 420 420 0 0 0
+Dr 0 0 0
+At CONN N 00800001
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 420 420 0 0 0
+Dr 0 0 0
+At CONN N 00800001
+Ne 0 ""
+Po 1260 0
+$EndPAD
+$PAD
+Sh "3" C 420 420 0 0 0
+Dr 0 0 0
+At CONN N 00800001
+Ne 0 ""
+Po 2520 0
+$EndPAD
+$EndMODULE  pwr_switch
+$MODULE blue_led
+Po 0 0 0 15 50189FA7 00000000 ~~
+Li blue_led
+Sc 00000000
+AR
+Op 0 0 0
+T0 787 945 600 600 0 120 N V 21 N "blue_led"
+T1 630 -866 600 600 0 120 N V 21 N "VAL**"
+DS 1614 -472 1614 472 39 21
+DS 1614 472 -433 472 39 21
+DS -433 472 -433 -472 39 21
+DS -433 -472 1614 -472 39 21
+$PAD
+Sh "1" R 551 630 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 551 630 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 0
+$EndPAD
+$EndMODULE  blue_led
+$MODULE fpga_header
+Po 0 0 0 15 5018A74D 00000000 ~~
+Li fpga_header
+Sc 00000000
+AR
+Op 0 0 0
+T0 -2205 1260 600 600 0 120 N V 21 N "fpga_header"
+T1 -630 -3701 600 600 0 120 N V 21 N "VAL**"
+DS 472 -3307 472 945 39 21
+DS 472 945 -9449 945 39 21
+DS -9449 945 -9449 -3307 39 21
+DS -9449 -3307 472 -3307 39 21
+$PAD
+Sh "17" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8000 0
+$EndPAD
+$PAD
+Sh "18" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8000 -2346
+$EndPAD
+$PAD
+Sh "19" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -9000 0
+$EndPAD
+$PAD
+Sh "20" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -9000 -2346
+$EndPAD
+$PAD
+Sh "12" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5000 -2346
+$EndPAD
+$PAD
+Sh "11" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5000 0
+$EndPAD
+$PAD
+Sh "10" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4000 -2346
+$EndPAD
+$PAD
+Sh "9" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4000 0
+$EndPAD
+$PAD
+Sh "16" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7000 -2346
+$EndPAD
+$PAD
+Sh "15" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7000 0
+$EndPAD
+$PAD
+Sh "14" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6000 -2346
+$EndPAD
+$PAD
+Sh "13" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6000 0
+$EndPAD
+$PAD
+Sh "5" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2000 0
+$EndPAD
+$PAD
+Sh "6" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2000 -2346
+$EndPAD
+$PAD
+Sh "7" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3000 0
+$EndPAD
+$PAD
+Sh "8" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3000 -2346
+$EndPAD
+$PAD
+Sh "1" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2346
+$EndPAD
+$PAD
+Sh "3" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "4" R 402 1252 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 -2346
+$EndPAD
+$EndMODULE  fpga_header
+$MODULE SOT363
+Po 0 0 0 15 5018A9B5 00000000 ~~
+Li SOT363
+Cd SOT353
+Sc 00000000
+AR SOT353
+Op 0 0 0
+At SMD
+T0 0 709 300 250 0 50 N V 21 N "SOT363"
+T1 0 -709 300 250 1800 50 N I 21 N "Val**"
+DS 250 400 250 -400 60 21
+DS 250 -400 -250 -400 60 21
+DS -250 -400 -250 400 60 21
+DS -250 400 250 400 60 21
+$PAD
+Sh "1" R 200 120 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -400 -250
+$EndPAD
+$PAD
+Sh "3" R 200 120 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -400 250
+$EndPAD
+$PAD
+Sh "5" R 200 120 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 400 0
+$EndPAD
+$PAD
+Sh "2" R 200 120 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -400 0
+$EndPAD
+$PAD
+Sh "4" R 200 120 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 400 250
+$EndPAD
+$PAD
+Sh "6" R 200 120 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 400 -250
+$EndPAD
+$EndMODULE  SOT363
+$MODULE tssop-24
+Po 0 0 0 15 5019E7DC 00000000 ~~
+Li tssop-24
+Cd TSSOP-28
+Sc 00000000
+AR tssop-28
+Op 0 0 0
+T0 0 200 197 197 0 39 N V 21 N "TSSOP-24"
+T1 0 -450 197 197 0 39 N V 21 N "U***"
+DS 1476 709 -1949 709 39 21
+DS -1949 -709 1476 -709 39 21
+DS -1950 -700 -1950 700 50 21
+DS 1477 -700 1477 700 50 21
+DC -1650 400 -1700 500 50 21
+$PAD
+Sh "7" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -128 1102
+$EndPAD
+$PAD
+Sh "8" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 128 1102
+$EndPAD
+$PAD
+Sh "9" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 384 1102
+$EndPAD
+$PAD
+Sh "10" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 640 1102
+$EndPAD
+$PAD
+Sh "4" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -896 1102
+$EndPAD
+$PAD
+Sh "5" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 1102
+$EndPAD
+$PAD
+Sh "6" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -384 1102
+$EndPAD
+$PAD
+Sh "18" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -128 -1102
+$EndPAD
+$PAD
+Sh "19" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -384 -1102
+$EndPAD
+$PAD
+Sh "20" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 -1102
+$EndPAD
+$PAD
+Sh "21" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -896 -1102
+$EndPAD
+$PAD
+Sh "22" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1152 -1102
+$EndPAD
+$PAD
+Sh "23" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1408 -1102
+$EndPAD
+$PAD
+Sh "11" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 896 1102
+$EndPAD
+$PAD
+Sh "24" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1664 -1100
+$EndPAD
+$PAD
+Sh "3" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1152 1102
+$EndPAD
+$PAD
+Sh "12" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1152 1102
+$EndPAD
+$PAD
+Sh "17" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 128 -1102
+$EndPAD
+$PAD
+Sh "2" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1407 1102
+$EndPAD
+$PAD
+Sh "13" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1152 -1102
+$EndPAD
+$PAD
+Sh "16" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 383 -1102
+$EndPAD
+$PAD
+Sh "1" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1663 1102
+$EndPAD
+$PAD
+Sh "14" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 896 -1102
+$EndPAD
+$PAD
+Sh "15" R 165 579 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 639 -1102
+$EndPAD
+$SHAPE3D
+Na "smd/smd_dil/tssop-28.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  tssop-24
+$MODULE eepromSwitch
+Po 0 0 0 15 501B2E26 00000000 ~~
+Li eepromSwitch
+Sc 00000000
+AR
+Op 0 0 0
+T0 -276 3307 600 600 0 120 N V 21 N "eepromSwitch"
+T1 -2205 -4646 600 600 0 120 N V 21 N "VAL**"
+DS 551 -4016 -1496 -4016 39 21
+DS -1496 -4016 -1496 551 39 21
+DS -1496 551 551 551 39 21
+DS 551 551 551 -4016 39 21
+$PAD
+Sh "1" R 433 591 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 433 591 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "3" R 433 591 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -3503
+$EndPAD
+$PAD
+Sh "4" R 433 591 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 -3503
+$EndPAD
+$EndMODULE  eepromSwitch
+$MODULE TSSOP8
+Po 0 0 0 15 501B31A5 00000000 ~~
+Li TSSOP8
+Sc 00000000
+AR TSSOP14
+Op 0 0 0
+At SMD
+T0 -315 -472 221 171 0 43 N V 21 N "TSSOP14"
+T1 -394 39 221 221 0 55 N V 21 N "VAL**"
+DS -945 709 315 709 39 21
+DS -945 -709 315 -709 39 21
+DS 320 -700 320 700 80 21
+DS -950 700 -950 -700 80 21
+DC -700 450 -850 450 80 21
+$PAD
+Sh "1" R 118 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -760 1100
+$EndPAD
+$PAD
+Sh "2" R 118 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -510 1100
+$EndPAD
+$PAD
+Sh "3" R 118 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -250 1100
+$EndPAD
+$PAD
+Sh "4" R 118 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1100
+$EndPAD
+$PAD
+Sh "5" R 118 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1100
+$EndPAD
+$PAD
+Sh "6" R 118 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -250 -1100
+$EndPAD
+$PAD
+Sh "7" R 118 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -510 -1100
+$EndPAD
+$PAD
+Sh "8" R 118 512 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -765 -1100
+$EndPAD
+$SHAPE3D
+Na "smd\\smd_dil\\tssop-14.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  TSSOP8
+$MODULE JTAG_6_Header
+Po 0 0 0 15 501B347F 00000000 ~~
+Li JTAG_6_Header
+Sc 00000000
+AR
+Op 0 0 0
+T0 -2756 1181 600 600 0 120 N V 21 N "JTAG"
+T1 -2205 -1614 600 600 0 120 N V 21 N "VAL**"
+T2 -39 -748 197 197 900 39 N V 21 N "TMS"
+T2 -984 -669 197 197 900 39 N V 21 N "TDI"
+T2 -1969 -709 197 197 900 41 N V 21 N "TDO"
+T2 -2992 -709 197 197 900 39 N V 21 N "TCK"
+T2 -4055 -709 197 197 900 39 N V 21 N "GND"
+T2 -5000 -787 206 206 900 41 N V 21 N "VAUX"
+DS -2756 -787 -5512 -787 118 21
+DS -5512 -787 -5512 787 118 21
+DS -5512 787 -2756 787 118 21
+DS -2756 -787 787 -787 150 21
+DS 787 -787 787 787 150 21
+DS 787 787 -2756 787 150 21
+$PAD
+Sh "6" C 402 402 0 0 0
+Dr 320 0 0
+At STD N 00E00001
+Ne 0 ""
+Po -5000 0
+$EndPAD
+$PAD
+Sh "5" C 402 402 0 0 0
+Dr 320 0 0
+At STD N 00E00001
+Ne 0 ""
+Po -4000 0
+$EndPAD
+$PAD
+Sh "4" C 402 402 0 0 0
+Dr 320 0 0
+At STD N 00E00001
+Ne 0 ""
+Po -3000 0
+$EndPAD
+$PAD
+Sh "1" C 402 402 0 0 0
+Dr 320 0 0
+At STD N 00E00001
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 402 402 0 0 0
+Dr 320 0 0
+At STD N 00E00001
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "3" C 402 402 0 0 0
+Dr 320 0 0
+At STD N 00E00001
+Ne 0 ""
+Po -2000 0
+$EndPAD
+$EndMODULE  JTAG_6_Header
+$MODULE SD_Card
+Po 0 0 0 15 501B352C 00000000 ~~
+Li SD_Card
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 1260 600 600 0 120 N V 21 N "SD_Card"
+T1 -945 -2283 600 600 0 120 N V 21 N "VAL**"
+$PAD
+Sh "1" R 402 402 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 402 402 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -709 0
+$EndPAD
+$PAD
+Sh "3" R 402 402 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1457 0
+$EndPAD
+$PAD
+Sh "4" R 402 402 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2126 0
+$EndPAD
+$PAD
+Sh "5" R 402 402 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2756 0
+$EndPAD
+$PAD
+Sh "6" R 402 402 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3386 0
+$EndPAD
+$PAD
+Sh "7" R 402 402 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3976 -39
+$EndPAD
+$PAD
+Sh "8" R 402 402 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4567 0
+$EndPAD
+$EndMODULE  SD_Card
+$MODULE Oscillator
+Po 0 0 0 15 501B4330 00000000 ~~
+Li Oscillator
+Sc 00000000
+AR /4FE27749/5004FA90
+Op 0 0 0
+T0 -79 1870 600 600 0 120 N V 21 N "U405"
+T1 -4331 -4724 600 600 0 120 N V 21 N "100MHZOSC"
+DS -2520 -1850 -2520 433 39 21
+DS -2520 433 551 433 39 21
+DS 551 433 551 -1850 39 21
+DS 551 -1850 -2520 -1850 39 21
+$PAD
+Sh "3" R 551 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po -2000 -1457
+$EndPAD
+$PAD
+Sh "4" R 551 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/FPGA_Bank_2/100MHZ_En"
+Po 0 -1457
+$EndPAD
+$PAD
+Sh "1" R 551 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/FPGA_Bank_2/100MHZ_En"
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 551 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po -2000 0
+$EndPAD
+$EndMODULE  Oscillator
+$MODULE XC6SLX25FTG256
+Po 0 0 0 15 501B6FE6 00000000 ~~
+Li XC6SLX25FTG256
+Cd Spartan 6 FT256 footprint
+Sc 00000000
+AR XC6SLX25FTG256
+Op 0 0 0
+T0 0 -7087 350 350 0 88 N V 21 N "U"
+T1 1969 394 350 350 0 88 N V 21 N "XC6SLX25FTG256"
+DS 0 -6693 6693 -6693 201 21
+DS 6693 -6693 6693 0 201 21
+DS 6693 0 0 0 201 21
+DS 0 0 0 -6693 201 21
+$PAD
+Sh "A1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -4725
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -5905
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1575 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T1" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T2" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T3" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T4" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T5" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T6" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T7" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T8" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T9" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T10" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T11" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T12" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T13" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T14" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T15" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T16" C 157 157 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -6299
+.LocalClearance 39
+$EndPAD
+$EndMODULE  XC6SLX25FTG256
+$MODULE LTC3456
+Po 0 0 0 15 50204995 00000000 ~~
+Li LTC3456
+Cd TSSOP-28
+Sc 00000000
+AR /4FE6399D/4FF3AA21
+Op 0 0 0
+T0 -30 492 197 197 0 39 N V 21 N "U206"
+T1 -10 -30 197 197 0 39 N V 21 N "LTC3546"
+DS -1929 -305 -1939 719 71 21
+DS 1949 -295 1949 699 71 21
+DS 1960 -296 -1940 -296 50 21
+DS -1940 739 1960 739 50 21
+DC -1680 508 -1730 608 50 21
+$PAD
+Sh "7" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "N-000305"
+Po -128 1102
+$EndPAD
+$PAD
+Sh "8" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 128 1102
+$EndPAD
+$PAD
+Sh "9" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 384 1102
+$EndPAD
+$PAD
+Sh "10" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 640 1102
+$EndPAD
+$PAD
+Sh "25" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "N-000284"
+Po -892 -670
+$EndPAD
+$PAD
+Sh "4" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "N-000284"
+Po -896 1102
+$EndPAD
+$PAD
+Sh "5" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 1102
+$EndPAD
+$PAD
+Sh "6" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "N-000279"
+Po -384 1102
+$EndPAD
+$PAD
+Sh "18" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 896 -670
+$EndPAD
+$PAD
+Sh "19" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 640 -670
+$EndPAD
+$PAD
+Sh "20" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 384 -670
+$EndPAD
+$PAD
+Sh "21" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 128 -670
+$EndPAD
+$PAD
+Sh "22" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "N-000287"
+Po -128 -670
+$EndPAD
+$PAD
+Sh "23" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "N-000291"
+Po -384 -670
+$EndPAD
+$PAD
+Sh "11" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 896 1102
+$EndPAD
+$PAD
+Sh "24" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 -670
+$EndPAD
+$PAD
+Sh "3" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "PGOOD"
+Po -1152 1102
+$EndPAD
+$PAD
+Sh "12" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 1152 1102
+$EndPAD
+$PAD
+Sh "17" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 1152 -670
+$EndPAD
+$PAD
+Sh "26" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "PGOOD"
+Po -1152 -670
+$EndPAD
+$PAD
+Sh "2" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "N-000285"
+Po -1408 1102
+$EndPAD
+$PAD
+Sh "13" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "N-000282"
+Po 1407 1102
+$EndPAD
+$PAD
+Sh "16" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "N-000281"
+Po 1407 -670
+$EndPAD
+$PAD
+Sh "27" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "N-000295"
+Po -1407 -670
+$EndPAD
+$PAD
+Sh "1" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po -1663 1102
+$EndPAD
+$PAD
+Sh "14" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "N-000282"
+Po 1663 1102
+$EndPAD
+$PAD
+Sh "15" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "N-000281"
+Po 1663 -670
+$EndPAD
+$PAD
+Sh "28" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po -1663 -670
+$EndPAD
+$SHAPE3D
+Na "smd/smd_dil/tssop-28.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  LTC3456
+$MODULE LTC3546
+Po 0 0 0 15 50204BFF 00000000 ~~
+Li LTC3546
+Cd TSSOP-28
+Sc 00000000
+AR /4FE6399D/4FE639CB
+Op 0 0 0
+T0 -1860 177 197 197 0 39 N V 21 N "U204"
+T1 -1575 -551 197 197 0 39 N V 21 N "LTC3546"
+DS -1929 -295 -1929 -748 71 21
+DS 1949 -285 1949 -738 71 21
+DS -1929 -305 -1939 719 71 21
+DS 1949 -295 1949 699 71 21
+DS 1940 -749 -1960 -749 50 21
+DS -1940 739 1960 739 50 21
+DC -1680 508 -1730 608 50 21
+$PAD
+Sh "7" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "N-000297"
+Po -128 1102
+$EndPAD
+$PAD
+Sh "8" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 128 1102
+$EndPAD
+$PAD
+Sh "9" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 384 1102
+$EndPAD
+$PAD
+Sh "10" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 640 1102
+$EndPAD
+$PAD
+Sh "25" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "N-000303"
+Po -892 -1122
+$EndPAD
+$PAD
+Sh "4" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "N-000303"
+Po -896 1102
+$EndPAD
+$PAD
+Sh "5" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 1102
+$EndPAD
+$PAD
+Sh "6" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "N-000277"
+Po -384 1102
+$EndPAD
+$PAD
+Sh "18" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 896 -1122
+$EndPAD
+$PAD
+Sh "19" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 640 -1122
+$EndPAD
+$PAD
+Sh "20" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 384 -1122
+$EndPAD
+$PAD
+Sh "21" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 128 -1122
+$EndPAD
+$PAD
+Sh "22" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "N-000278"
+Po -128 -1122
+$EndPAD
+$PAD
+Sh "23" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "N-000293"
+Po -384 -1122
+$EndPAD
+$PAD
+Sh "11" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 896 1102
+$EndPAD
+$PAD
+Sh "24" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -640 -1122
+$EndPAD
+$PAD
+Sh "3" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "PGOOD"
+Po -1152 1102
+$EndPAD
+$PAD
+Sh "12" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po 1152 1102
+$EndPAD
+$PAD
+Sh "17" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 1152 -1122
+$EndPAD
+$PAD
+Sh "26" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "PGOOD"
+Po -1152 -1122
+$EndPAD
+$PAD
+Sh "2" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "N-000283"
+Po -1408 1102
+$EndPAD
+$PAD
+Sh "13" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "N-000275"
+Po 1407 1102
+$EndPAD
+$PAD
+Sh "16" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "N-000288"
+Po 1407 -1122
+$EndPAD
+$PAD
+Sh "27" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "N-000274"
+Po -1407 -1122
+$EndPAD
+$PAD
+Sh "1" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V_supply"
+Po -1663 1102
+$EndPAD
+$PAD
+Sh "14" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "N-000275"
+Po 1663 1102
+$EndPAD
+$PAD
+Sh "15" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "N-000275"
+Po 1663 -1122
+$EndPAD
+$PAD
+Sh "28" R 179 453 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po -1663 -1122
+$EndPAD
+$PAD
+Sh "29" R 1870 1079 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 89 -10
+$EndPAD
+$SHAPE3D
+Na "smd/smd_dil/tssop-28.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  LTC3546
+$EndLIBRARY

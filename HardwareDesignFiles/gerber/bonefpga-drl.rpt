@@ -1,0 +1,50 @@
+Drill report for /home/mike/bonefpga/HardwareDesignFiles/pcbLayout/bonefpga.brd
+Created on Mon Sep 10 12:26:11 2012
+Selected Drill Unit: Imperial (")
+
+Drill report for through holes :
+T1  0.032"  0.80mm  (99 holes)
+T2  0.032"  0.81mm  (12 holes)
+T3  0.040"  1.02mm  (3 holes)
+T4  0.125"  3.18mm  (4 holes)
+
+total plated holes count 118
+
+
+Drill report for buried and blind vias :
+
+Drill report for holes from layer Back to layer Inner2
+T1  0.008"  0.20mm  (113 holes)
+
+total plated holes count 113
+
+
+Drill report for holes from layer Inner2 to layer Inner3
+T1  0.008"  0.20mm  (68 holes)
+
+total plated holes count 68
+
+
+Drill report for holes from layer Inner3 to layer Inner4
+T1  0.008"  0.20mm  (77 holes)
+
+total plated holes count 77
+
+
+Drill report for holes from layer Inner4 to layer Inner5
+T1  0.008"  0.20mm  (116 holes)
+
+total plated holes count 116
+
+
+Drill report for holes from layer Inner5 to layer Front
+T1  0.008"  0.20mm  (209 holes)
+
+total plated holes count 209
+
+
+Drill report for Not Plated through holes :
+
+total Not Plated holes count 0
+
+
