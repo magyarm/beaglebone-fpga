@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon Sep 10 08:55:54 2012
+EESchema Schematic File Version 2  date Tue Sep 11 13:15:23 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 7 7
 Title "FPGA Power, Ground, and JTAG"
-Date "10 sep 2012"
+Date "11 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -716,7 +716,7 @@ $Comp
 L XC6SLX25FTG256 U702
 U 1 1 4FE276A4
 P 10950 4900
-F 0 "U702" H 4450 8600 60  0000 C CNN
+F 0 "U702" H 11000 4950 60  0000 C CNN
 F 1 "XC6SLX25FTG256" H 4650 4000 60  0000 C CNN
 	1    10950 4900
 	1    0    0    -1  

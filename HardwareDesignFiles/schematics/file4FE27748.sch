@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon Sep 10 08:55:54 2012
+EESchema Schematic File Version 2  date Tue Sep 11 13:15:23 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 7
 Title "FPGA Configuration, IOE, Global CLK, GPMC/I2C/SPI Connections"
-Date "10 sep 2012"
+Date "11 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -14,6 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4200 1900 4350 1900
 Wire Wire Line
 	4350 1500 4200 1500
 Wire Wire Line
@@ -227,34 +229,62 @@ Wire Wire Line
 Connection ~ 9800 3500
 Wire Wire Line
 	8500 3800 8400 3800
+Wire Wire Line
+	4350 5600 4250 5600
+Text Label 4200 1900 2    60   ~ 0
+GPMC_BE1N
+Text GLabel 1500 5450 0    60   Input ~ 0
+GPMC_CSN0
+Text GLabel 1500 5350 0    60   Input ~ 0
+GPMC_AD1
+Text GLabel 1500 5250 0    60   Input ~ 0
+GPMC_AD5
+Text GLabel 1500 5150 0    60   Input ~ 0
+GPMC_CSN2
+Text GLabel 1500 5050 0    60   Input ~ 0
+GPMC_CLK
+Text GLabel 1500 4950 0    60   Input ~ 0
+GPMC_AD14
+Text GLabel 1500 4850 0    60   Input ~ 0
+GPMC_AD10
+Text GLabel 1500 4750 0    60   Input ~ 0
+GPMC_AD12
+Text GLabel 1500 4650 0    60   Input ~ 0
+GPMC_WEN
+Text GLabel 1500 4550 0    60   Input ~ 0
+GPMC_OEN
+Text GLabel 1500 4450 0    60   Input ~ 0
+GPMC_AD3
+Text GLabel 1500 4350 0    60   Input ~ 0
+GPMC_AD7
 Text GLabel 1500 2600 0    60   Input ~ 0
 GPMC_AD0
 Text GLabel 1500 2500 0    60   Input ~ 0
-GMPC_AD4
+GPMC_AD4
 Text GLabel 1500 2400 0    60   Input ~ 0
 GPMC_CSN1
 Text GLabel 1500 2300 0    60   Input ~ 0
-GMPC_AD8
+GPMC_AD8
 Text GLabel 1500 2200 0    60   Input ~ 0
-GMPC_AD11
+GPMC_AD11
 Text GLabel 1500 2100 0    60   Input ~ 0
-GMPC_AD15
+GPMC_AD15
 Text GLabel 1500 2000 0    60   Input ~ 0
-GMPC_AD9
+GPMC_AD9
 Text GLabel 1500 1900 0    60   Input ~ 0
-GMPC_AD13
+GPMC_AD13
 Text GLabel 1700 1800 0    60   Input ~ 0
 GPMC_BEON_CLE
 Text GLabel 1700 1700 0    60   Input ~ 0
 GPMC_ADVN_ALE
 Text GLabel 1700 1600 0    60   Input ~ 0
-GMPC_AD2
+GPMC_AD2
 Text GLabel 1700 1500 0    60   Input ~ 0
-GMPC_AD6
+GPMC_AD6
 Text Label 4200 1500 2    60   ~ 0
 SPI0_D0
 NoConn ~ 8600 5300
-Text Label 3500 6700 2    60   ~ 0
+Text Label 4250 5600 2    60   ~ 0
 SPI0_CLK
 NoConn ~ 8900 2850
 NoConn ~ 8900 2750
@@ -492,30 +522,6 @@ F 1 "BEAGLEBONE" H 10850 2750 60  0000 C CNN
 $EndComp
 Text Label 8850 1150 2    60   ~ 0
 GPMC_BE1N
-Text Label 1500 4650 2    60   ~ 0
-GPMC_WEN
-Text Label 1500 4550 2    60   ~ 0
-GPMC_OEN
-Text Label 1500 5050 2    60   ~ 0
-GPMC_CLK
-Text Label 1500 5150 2    60   ~ 0
-GPMC_CSN2
-Text Label 1500 5450 2    60   ~ 0
-GPMC_CSN0
-Text Label 1500 4950 2    60   ~ 0
-GMPC_AD14
-Text Label 1500 4750 2    60   ~ 0
-GMPC_AD12
-Text Label 1500 4850 2    60   ~ 0
-GMPC_AD10
-Text Label 1500 4350 2    60   ~ 0
-GMPC_AD7
-Text Label 1500 5250 2    60   ~ 0
-GMPC_AD5
-Text Label 1500 4450 2    60   ~ 0
-GMPC_AD3
-Text Label 1500 5350 2    60   ~ 0
-GMPC_AD1
 $Comp
 L GND #PWR022
 U 1 1 4FFE26A1
