@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue Sep 11 13:13:11 2012
+EESchema Schematic File Version 2  date Tue Sep 11 20:39:38 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 7
 Title "FPGA Configuration, IOE, Global CLK, GPMC/I2C/SPI Connections"
-Date "11 sep 2012"
+Date "12 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -14,6 +14,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	7400 3400 8500 3400
+Wire Wire Line
+	8500 3400 8500 3500
 Wire Wire Line
 	4350 5600 4250 5600
 Wire Wire Line
@@ -65,7 +69,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 1350 10250 1350
 Wire Wire Line
-	10800 5150 10050 5150
+	10050 5150 10800 5150
 Wire Wire Line
 	10050 6100 10100 6100
 Wire Wire Line
@@ -165,9 +169,9 @@ Wire Wire Line
 	10100 6000 10100 6150
 Connection ~ 10100 6100
 Wire Wire Line
-	10050 5300 10800 5300
+	10800 5300 10050 5300
 Wire Wire Line
-	10800 5500 10050 5500
+	10050 5500 10800 5500
 Connection ~ 10150 4500
 Wire Wire Line
 	10700 4550 10700 4500
@@ -209,12 +213,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 4550 1850 4550
 Wire Wire Line
-	7400 3800 8000 3800
-Wire Wire Line
-	8000 3800 8000 3500
-Wire Wire Line
-	8000 3500 8500 3500
-Wire Wire Line
 	8600 5600 8500 5600
 Wire Wire Line
 	10150 4500 10150 4700
@@ -229,6 +227,10 @@ Wire Wire Line
 	8600 5700 8400 5700
 Wire Wire Line
 	4350 1500 4200 1500
+Wire Wire Line
+	4200 1900 4350 1900
+Text Label 4200 1900 2    60   ~ 0
+GPMC_BE1N
 Text GLabel 1500 5450 0    60   Input ~ 0
 GPMC_CSN0
 Text GLabel 1500 5350 0    60   Input ~ 0

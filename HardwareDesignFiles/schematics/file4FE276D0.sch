@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue Sep 11 13:15:23 2012
+EESchema Schematic File Version 2  date Tue Sep 11 20:39:40 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 7
 Title "FPGA Bank 0"
-Date "11 sep 2012"
+Date "12 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
