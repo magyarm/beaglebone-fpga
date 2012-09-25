@@ -1,0 +1,14 @@
+** Drc report for /home/mike/bonefpga/HardwareDesignFiles/pcbLayout/bonefpga.brd **
+** Created on 2012-09-15 16:37:16 **
+
+** Found 0 DRC errors **
+
+** Found 2 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (168.811 mm,94.663 mm): Pad [2] (Back) of C716
+    @ (168.971 mm,93.081 mm): Pad [2] (Front) of C401
+ErrType(2): Unconnected pads
+    @ (151.470 mm,102.210 mm): Pad [C1] (Front) of U702
+    @ (150.995 mm,117.340 mm): Pad [B24] (all copper layers) of U401
+
+** End of Report **

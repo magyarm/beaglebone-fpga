@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue Sep 11 20:39:38 2012
+EESchema Schematic File Version 2  date Mon Sep 24 22:18:58 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 7
 Title "Beaglebone-FPGA"
-Date "12 sep 2012"
+Date "25 sep 2012"
 Rev "1"
 Comp ""
 Comment1 ""
