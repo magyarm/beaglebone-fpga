@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon Sep 24 22:19:00 2012
+EESchema Schematic File Version 2  date Tue Sep 25 15:03:38 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -144,7 +144,7 @@ $Comp
 L XC6SLX25FTG256 U303
 U 5 1 4FE55256
 P 10950 5200
-F 0 "U303" H 4450 8900 60  0000 C CNN
+F 0 "U303" H 11000 5250 60  0000 C CNN
 F 1 "XC6SLX25FTG256" H 4650 4300 60  0000 C CNN
 	5    10950 5200
 	1    0    0    -1  

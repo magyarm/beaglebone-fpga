@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon Sep 24 22:19:00 2012
+EESchema Schematic File Version 2  date Tue Sep 25 15:03:38 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -14,6 +14,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 4100 4100
+NoConn ~ 4100 3900
+NoConn ~ 4100 3300
+NoConn ~ 4100 3100
+NoConn ~ 4100 2500
+NoConn ~ 4100 2300
 Wire Wire Line
 	7150 4900 7300 4900
 Wire Wire Line
