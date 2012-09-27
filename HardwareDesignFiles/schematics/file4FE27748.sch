@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue Sep 25 15:03:38 2012
+EESchema Schematic File Version 2  date Thu Sep 27 12:16:18 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 7
 Title "FPGA Configuration, IOE, Global CLK, GPMC/I2C/SPI Connections"
-Date "25 sep 2012"
+Date "27 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue Sep 25 15:03:36 2012
+EESchema Schematic File Version 2  date Thu Sep 27 12:16:16 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 7
 Title "FPGA Bank 0"
-Date "25 sep 2012"
+Date "27 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -14,6 +14,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L FPGA_20_PIN_HEADER U501
+U 1 1 50647B5F
+P 8450 3400
+F 0 "U501" H 8350 4550 60  0000 C CNN
+F 1 "FPGA_20_PIN_HEADER" H 8350 2900 60  0000 C CNN
+	1    8450 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FPGA_20_PIN_HEADER U501
+U 2 1 50647B54
+P 10050 3400
+F 0 "U501" H 9950 4550 60  0000 C CNN
+F 1 "FPGA_20_PIN_HEADER" H 9950 2900 60  0000 C CNN
+	2    10050 3400
+	1    0    0    -1  
+$EndComp
 NoConn ~ 4100 4100
 NoConn ~ 4100 3900
 NoConn ~ 4100 3300
@@ -216,7 +234,7 @@ $Comp
 L XC6SLX25FTG256 U602
 U 2 1 4FE55175
 P 11050 4900
-F 0 "U602" H 4650 8600 60  0000 C CNN
+F 0 "U602" H 4600 8600 60  0000 C CNN
 F 1 "XC6SLX25FTG256" H 4750 4000 60  0000 C CNN
 	2    11050 4900
 	1    0    0    -1  
