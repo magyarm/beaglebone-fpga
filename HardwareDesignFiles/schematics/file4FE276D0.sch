@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu Sep 27 12:16:18 2012
+EESchema Schematic File Version 2  date Thu Sep 27 14:29:40 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -14,6 +14,246 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	7150 5300 7300 5300
+Wire Wire Line
+	7150 4500 7300 4500
+Wire Wire Line
+	7150 3100 7300 3100
+Wire Wire Line
+	7150 2700 7300 2700
+Wire Wire Line
+	7150 2300 7300 2300
+Wire Wire Line
+	7150 1900 7300 1900
+Wire Wire Line
+	7150 1500 7300 1500
+Wire Wire Line
+	4100 3900 4000 3900
+Wire Wire Line
+	4100 3100 4000 3100
+Wire Wire Line
+	4100 2300 4000 2300
+Wire Wire Line
+	8850 2550 8750 2550
+Wire Wire Line
+	8850 2850 8750 2850
+Wire Wire Line
+	8850 3150 8750 3150
+Wire Wire Line
+	8850 3450 8750 3450
+Wire Wire Line
+	8850 3750 8750 3750
+Wire Wire Line
+	10250 2550 10150 2550
+Wire Wire Line
+	10250 2850 10150 2850
+Wire Wire Line
+	10250 3150 10150 3150
+Wire Wire Line
+	10250 3450 10150 3450
+Wire Wire Line
+	10250 3750 10150 3750
+Wire Wire Line
+	7150 4700 7300 4700
+Wire Wire Line
+	7150 3900 7300 3900
+Wire Wire Line
+	7150 3500 7300 3500
+Wire Wire Line
+	4000 5100 4100 5100
+Wire Wire Line
+	4000 4700 4100 4700
+Wire Wire Line
+	4000 4300 4100 4300
+Wire Wire Line
+	4000 3500 4100 3500
+Wire Wire Line
+	4000 2700 4100 2700
+Wire Wire Line
+	4000 1900 4100 1900
+Wire Wire Line
+	4000 1500 4100 1500
+Wire Wire Line
+	2800 3450 2900 3450
+Wire Wire Line
+	2800 3150 2900 3150
+Wire Wire Line
+	2800 2850 2900 2850
+Wire Wire Line
+	2800 2550 2900 2550
+Wire Wire Line
+	2800 2250 2900 2250
+Wire Wire Line
+	1350 3450 1450 3450
+Wire Wire Line
+	1350 3150 1450 3150
+Wire Wire Line
+	1350 2850 1450 2850
+Wire Wire Line
+	1350 2550 1450 2550
+Wire Wire Line
+	1350 2250 1450 2250
+Wire Wire Line
+	1350 2400 1450 2400
+Wire Wire Line
+	1350 2700 1450 2700
+Wire Wire Line
+	1350 3000 1450 3000
+Wire Wire Line
+	1350 3300 1450 3300
+Wire Wire Line
+	1450 3600 1350 3600
+Wire Wire Line
+	2800 2400 2900 2400
+Wire Wire Line
+	2800 2700 2900 2700
+Wire Wire Line
+	2800 3000 2900 3000
+Wire Wire Line
+	2800 3300 2900 3300
+Wire Wire Line
+	2800 3600 2900 3600
+Wire Wire Line
+	4000 1700 4100 1700
+Wire Wire Line
+	4000 2100 4100 2100
+Wire Wire Line
+	4000 2900 4100 2900
+Wire Wire Line
+	4000 3700 4100 3700
+Wire Wire Line
+	4000 4500 4100 4500
+Wire Wire Line
+	4000 4900 4100 4900
+Wire Wire Line
+	4000 5300 4100 5300
+Wire Wire Line
+	7300 3700 7150 3700
+Wire Wire Line
+	7150 4100 7300 4100
+Wire Wire Line
+	7150 4900 7300 4900
+Wire Wire Line
+	10150 3600 10250 3600
+Wire Wire Line
+	10250 3300 10150 3300
+Wire Wire Line
+	10250 3000 10150 3000
+Wire Wire Line
+	10250 2700 10150 2700
+Wire Wire Line
+	10250 2400 10150 2400
+Wire Wire Line
+	8750 3600 8850 3600
+Wire Wire Line
+	8850 3300 8750 3300
+Wire Wire Line
+	8850 3000 8750 3000
+Wire Wire Line
+	8850 2700 8750 2700
+Wire Wire Line
+	8850 2400 8750 2400
+Wire Wire Line
+	4000 2500 4100 2500
+Wire Wire Line
+	4100 3300 4000 3300
+Wire Wire Line
+	4100 4100 4000 4100
+Wire Wire Line
+	7150 1700 7300 1700
+Wire Wire Line
+	7150 2100 7300 2100
+Wire Wire Line
+	7150 2500 7300 2500
+Wire Wire Line
+	7150 2900 7300 2900
+Wire Wire Line
+	7150 3300 7300 3300
+Wire Wire Line
+	7150 4300 7300 4300
+Wire Wire Line
+	7150 5100 7300 5100
+Text GLabel 7300 5300 2    60   Input ~ 0
+BANK0_40
+Text GLabel 7300 5100 2    60   Input ~ 0
+BANK0_39
+Text GLabel 7300 2900 2    60   Input ~ 0
+BANK0_38
+Text GLabel 7300 2700 2    60   Input ~ 0
+BANK0_37
+Text GLabel 7300 4300 2    60   Input ~ 0
+BANK0_36
+Text GLabel 7300 4500 2    60   Input ~ 0
+BANK0_35
+Text GLabel 7300 1900 2    60   Input ~ 0
+BANK0_34
+Text GLabel 7300 2100 2    60   Input ~ 0
+BANK0_33
+Text GLabel 7300 3100 2    60   Input ~ 0
+BANK0_32
+Text GLabel 7300 3300 2    60   Input ~ 0
+BANK0_31
+Text GLabel 7300 2300 2    60   Input ~ 0
+BANK0_30
+Text GLabel 7300 2500 2    60   Input ~ 0
+BANK0_29
+Text GLabel 7300 1500 2    60   Input ~ 0
+BANK0_28
+Text GLabel 7300 1700 2    60   Input ~ 0
+BANK0_27
+Text GLabel 4000 3100 0    60   Input ~ 0
+BANK0_26
+Text GLabel 4000 3300 0    60   Input ~ 0
+BANK0_25
+Text GLabel 4000 4100 0    60   Input ~ 0
+BANK0_24
+Text GLabel 4000 3900 0    60   Input ~ 0
+BANK0_23
+Text GLabel 4000 2500 0    60   Input ~ 0
+BANK0_22
+Text GLabel 4000 2300 0    60   Input ~ 0
+BANK0_21
+Text GLabel 10250 3750 2    60   Input ~ 0
+BANK0_40
+Text GLabel 8850 3750 2    60   Input ~ 0
+BANK0_39
+Text GLabel 10250 3600 2    60   Input ~ 0
+BANK0_38
+Text GLabel 8850 3600 2    60   Input ~ 0
+BANK0_37
+Text GLabel 10250 3450 2    60   Input ~ 0
+BANK0_36
+Text GLabel 8850 3450 2    60   Input ~ 0
+BANK0_35
+Text GLabel 10250 3300 2    60   Input ~ 0
+BANK0_34
+Text GLabel 8850 3300 2    60   Input ~ 0
+BANK0_33
+Text GLabel 10250 3150 2    60   Input ~ 0
+BANK0_32
+Text GLabel 8850 3150 2    60   Input ~ 0
+BANK0_31
+Text GLabel 10250 3000 2    60   Input ~ 0
+BANK0_30
+Text GLabel 8850 3000 2    60   Input ~ 0
+BANK0_29
+Text GLabel 10250 2850 2    60   Input ~ 0
+BANK0_28
+Text GLabel 8850 2850 2    60   Input ~ 0
+BANK0_27
+Text GLabel 10250 2700 2    60   Input ~ 0
+BANK0_26
+Text GLabel 8850 2700 2    60   Input ~ 0
+BANK0_25
+Text GLabel 10250 2550 2    60   Input ~ 0
+BANK0_24
+Text GLabel 8850 2550 2    60   Input ~ 0
+BANK0_23
+Text GLabel 10250 2400 2    60   Input ~ 0
+BANK0_22
+Text GLabel 8850 2400 2    60   Input ~ 0
+BANK0_21
 $Comp
 L FPGA_20_PIN_HEADER U501
 U 1 1 50647B5F
@@ -32,92 +272,6 @@ F 1 "FPGA_20_PIN_HEADER" H 9950 2900 60  0000 C CNN
 	2    10050 3400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4100 4100
-NoConn ~ 4100 3900
-NoConn ~ 4100 3300
-NoConn ~ 4100 3100
-NoConn ~ 4100 2500
-NoConn ~ 4100 2300
-Wire Wire Line
-	7150 4900 7300 4900
-Wire Wire Line
-	7150 4100 7300 4100
-Wire Wire Line
-	7300 3700 7150 3700
-Wire Wire Line
-	4000 5300 4100 5300
-Wire Wire Line
-	4000 4900 4100 4900
-Wire Wire Line
-	4000 4500 4100 4500
-Wire Wire Line
-	4000 3700 4100 3700
-Wire Wire Line
-	4000 2900 4100 2900
-Wire Wire Line
-	4000 2100 4100 2100
-Wire Wire Line
-	4000 1700 4100 1700
-Wire Wire Line
-	2800 3600 2900 3600
-Wire Wire Line
-	2800 3300 2900 3300
-Wire Wire Line
-	2800 3000 2900 3000
-Wire Wire Line
-	2800 2700 2900 2700
-Wire Wire Line
-	2800 2400 2900 2400
-Wire Wire Line
-	1450 3600 1350 3600
-Wire Wire Line
-	1350 3300 1450 3300
-Wire Wire Line
-	1350 3000 1450 3000
-Wire Wire Line
-	1350 2700 1450 2700
-Wire Wire Line
-	1350 2400 1450 2400
-Wire Wire Line
-	1350 2250 1450 2250
-Wire Wire Line
-	1350 2550 1450 2550
-Wire Wire Line
-	1350 2850 1450 2850
-Wire Wire Line
-	1350 3150 1450 3150
-Wire Wire Line
-	1350 3450 1450 3450
-Wire Wire Line
-	2800 2250 2900 2250
-Wire Wire Line
-	2800 2550 2900 2550
-Wire Wire Line
-	2800 2850 2900 2850
-Wire Wire Line
-	2800 3150 2900 3150
-Wire Wire Line
-	2800 3450 2900 3450
-Wire Wire Line
-	4000 1500 4100 1500
-Wire Wire Line
-	4000 1900 4100 1900
-Wire Wire Line
-	4000 2700 4100 2700
-Wire Wire Line
-	4000 3500 4100 3500
-Wire Wire Line
-	4000 4300 4100 4300
-Wire Wire Line
-	4000 4700 4100 4700
-Wire Wire Line
-	4000 5100 4100 5100
-Wire Wire Line
-	7150 3500 7300 3500
-Wire Wire Line
-	7150 3900 7300 3900
-Wire Wire Line
-	7150 4700 7300 4700
 Text GLabel 7300 4700 2    60   Input ~ 0
 BANK0_20
 Text GLabel 7300 4900 2    60   Input ~ 0
@@ -198,20 +352,6 @@ Text GLabel 1350 2400 0    60   Input ~ 0
 BANK0_3
 Text GLabel 1350 2250 0    60   Input ~ 0
 BANK0_1
-NoConn ~ 7150 5300
-NoConn ~ 7150 5100
-NoConn ~ 7150 4500
-NoConn ~ 7150 4300
-NoConn ~ 7150 3300
-NoConn ~ 7150 3100
-NoConn ~ 7150 2900
-NoConn ~ 7150 2700
-NoConn ~ 7150 2500
-NoConn ~ 7150 2300
-NoConn ~ 7150 2100
-NoConn ~ 7150 1900
-NoConn ~ 7150 1700
-NoConn ~ 7150 1500
 $Comp
 L FPGA_20_PIN_HEADER U601
 U 2 1 500F42DA
