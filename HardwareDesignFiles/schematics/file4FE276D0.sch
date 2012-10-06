@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu Sep 27 14:29:40 2012
+EESchema Schematic File Version 2  date Tue Oct  2 12:44:17 2012
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
