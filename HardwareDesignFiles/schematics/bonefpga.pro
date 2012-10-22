@@ -1,8 +1,8 @@
-update=Tue Oct  2 12:44:14 2012
+update=Wed Oct 10 19:37:07 2012
 last_client=eeschema
 [eeschema]
 version=1
-LibDir=/home/mike
+LibDir=/home/mike;/home/mike/bonefpga/HardwareDesignFiles/lib
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -62,3 +62,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=bonefpgaLibrary

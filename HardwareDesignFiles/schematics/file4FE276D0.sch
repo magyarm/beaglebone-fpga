@@ -1,4 +1,35 @@
-EESchema Schematic File Version 2  date Tue Oct  2 12:44:17 2012
+EESchema Schematic File Version 2  date Mon Oct 22 17:29:16 2012
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bonefpgaLibrary
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -6,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 7
 Title "FPGA Bank 0"
-Date "27 sep 2012"
+Date "22 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -371,10 +402,10 @@ F 1 "FPGA_20_PIN_HEADER" H 1650 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XC6SLX25FTG256 U602
+L XC6SLX25FTG256 U702
 U 2 1 4FE55175
 P 11050 4900
-F 0 "U602" H 4600 8600 60  0000 C CNN
+F 0 "U702" H 11100 4950 60  0000 C CNN
 F 1 "XC6SLX25FTG256" H 4750 4000 60  0000 C CNN
 	2    11050 4900
 	1    0    0    -1  

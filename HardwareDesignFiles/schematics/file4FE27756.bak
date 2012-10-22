@@ -1,4 +1,35 @@
-EESchema Schematic File Version 2  date Fri Sep 28 18:07:31 2012
+EESchema Schematic File Version 2  date Mon Oct 22 16:50:57 2012
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bonefpgaLibrary
 LIBS:bonefpga-cache
 EELAYER 25  0
 EELAYER END
@@ -6,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 7
 Title "FPGA Bank 3"
-Date "27 sep 2012"
+Date "22 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -141,10 +172,10 @@ NoConn ~ 4000 5900
 NoConn ~ 7050 5900
 NoConn ~ 7050 5800
 $Comp
-L XC6SLX25FTG256 U303
+L XC6SLX25FTG256 U702
 U 5 1 4FE55256
 P 10950 5200
-F 0 "U303" H 11000 5250 60  0000 C CNN
+F 0 "U702" H 4450 8900 60  0000 C CNN
 F 1 "XC6SLX25FTG256" H 4650 4300 60  0000 C CNN
 	5    10950 5200
 	1    0    0    -1  
