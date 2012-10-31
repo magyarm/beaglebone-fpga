@@ -1,1383 +1,796 @@
-# EESchema Netlist Version 1.1 created  Mon Oct 22 16:51:03 2012
+# EESchema Netlist Version 1.1 created  Mon Oct 29 20:22:12 2012
 (
- ( /4FE6399D/50832B74 $noname  C209 220NF {Lib=100NF}
-  (    1 1.2V )
-  (    2 GND )
- )
- ( /4FE6399D/50832B67 $noname  L204 100NH {Lib=100NH}
-  (    1 N-000300 )
-  (    2 1.2V )
- )
- ( /4FE6399D/50832AF7 $noname  R203 10K {Lib=10K}
-  (    1 N-000300 )
-  (    2 N-000299 )
- )
- ( /4FE6399D/50832A59 $noname  U203 TPS62130 {Lib=TPS62130}
-  (    1 N-000302 )
-  (    2 N-000302 )
-  (    3 N-000302 )
-  (    4 N-000301 )
-  (    5 N-000299 )
-  (    6 GND )
-  (    7 GND )
-  (    8 GND )
-  (    9 N-000298 )
-  (   10 +5V_supply )
-  (   11 +5V_supply )
-  (   12 +5V_supply )
-  (   13 +5V_supply )
-  (   14 N-000300 )
-  (   15 GND )
-  (   16 GND )
-  (   17 GND )
- )
- ( /4FE6399D/50832A58 $noname  C203 10UF {Lib=10UF}
-  (    1 +5V_supply )
-  (    2 GND )
- )
- ( /4FE6399D/50832A57 $noname  C204 2_2NF {Lib=2_2NF}
-  (    1 N-000298 )
-  (    2 GND )
- )
- ( /4FE6399D/50832A55 $noname  L203 2.2UH {Lib=2.2UH}
-  (    1 N-000300 )
-  (    2 N-000302 )
- )
- ( /4FE6399D/50832A54 $noname  R202 100K {Lib=100K}
-  (    1 N-000301 )
-  (    2 N-000300 )
- )
- ( /4FE6399D/50832A52 $noname  R204 20K {Lib=20K}
-  (    1 N-000299 )
-  (    2 GND )
- )
- ( /4FE6399D/508326BE $noname  R207 20K {Lib=20K}
-  (    1 N-000303 )
-  (    2 GND )
- )
- ( /4FE6399D/50832683 $noname  R206 62K {Lib=62K}
-  (    1 3.3V_Banks )
-  (    2 N-000303 )
- )
- ( /4FE6399D/508321AF $noname  R205 100K {Lib=100K}
-  (    1 N-000306 )
-  (    2 3.3V_Banks )
- )
- ( /4FE6399D/508321A6 $noname  L205 2.2UH {Lib=2.2UH}
-  (    1 3.3V_Banks )
-  (    2 N-000305 )
- )
- ( /4FE6399D/50832194 $noname  C208 2_2NF {Lib=2_2NF}
-  (    1 N-000304 )
-  (    2 GND )
- )
- ( /4FE6399D/5083218C $noname  C207 10UF {Lib=10UF}
-  (    1 +5V_supply )
-  (    2 GND )
- )
- ( /4FE6399D/50832172 $noname  U204 TPS62130 {Lib=TPS62130}
-  (    1 N-000305 )
-  (    2 N-000305 )
-  (    3 N-000305 )
-  (    4 N-000306 )
-  (    5 N-000303 )
-  (    6 GND )
-  (    7 GND )
-  (    8 GND )
-  (    9 N-000304 )
-  (   10 +5V_supply )
-  (   11 +5V_supply )
-  (   12 +5V_supply )
-  (   13 +5V_supply )
-  (   14 3.3V_Banks )
-  (   15 GND )
-  (   16 GND )
-  (   17 GND )
- )
- ( /4FE6399D/50831EA1 $noname  C206 100NF {Lib=100NF}
-  (    1 3.3V )
-  (    2 GND )
- )
- ( /4FE6399D/5083174D $noname  L202 100NH {Lib=100NH}
-  (    1 N-000297 )
-  (    2 3.3V )
- )
- ( /4FE6399D/508315B0 $noname  C205 22UF {Lib=22UF}
-  (    1 N-000297 )
-  (    2 GND )
- )
- ( /4FE6399D/508313B7 $noname  R201 100K {Lib=100K}
-  (    1 N-000295 )
-  (    2 N-000297 )
- )
- ( /4FE6399D/50831318 $noname  L201 2.2UH {Lib=2.2UH}
-  (    1 N-000297 )
-  (    2 N-000296 )
- )
- ( /4FE6399D/508312EC $noname  C202 2_2NF {Lib=2_2NF}
-  (    1 N-000293 )
-  (    2 GND )
- )
- ( /4FE6399D/50831268 $noname  C201 10UF {Lib=10UF}
-  (    1 +5V_supply )
-  (    2 GND )
- )
- ( /4FE6399D/50831164 $noname  U202 TPS62132 {Lib=TPS62132}
-  (    1 N-000296 )
-  (    2 N-000296 )
-  (    3 N-000296 )
-  (    4 N-000295 )
-  (    5 GND )
-  (    6 GND )
-  (    7 GND )
-  (    8 GND )
-  (    9 N-000293 )
-  (   10 +5V_supply )
-  (   11 +5V_supply )
-  (   12 +5V_supply )
-  (   13 +5V_supply )
-  (   14 N-000297 )
-  (   15 GND )
-  (   16 GND )
-  (   17 GND )
- )
- ( /4FE6399D/500F569F $noname  U201 DC_BARREL {Lib=DC_BARREL}
-  (    1 +5V_supply )
-  (    2 GND )
- )
- ( /4FE27757/4FE55256 $noname  U702 XC6SLX25FTG256 {Lib=XC6SLX25FTG256}
-  (   A1 GND )
-  (   A2 ? )
-  (   A3 ? )
-  (   A4 BANK0_1 )
-  (   A5 BANK0_3 )
-  (   A6 BANK0_5 )
-  (   A7 BANK0_7 )
-  (   A8 BANK0_9 )
-  (   A9 BANK0_11 )
-  (  A10 BANK0_13 )
-  (  A11 BANK0_38 )
-  (  A12 BANK0_15 )
-  (  A13 BANK0_17 )
-  (  A14 BANK0_19 )
-  (  A15 N-000001 )
-  (  A16 GND )
-  (   B1 GPMC_CSN0 )
-  (   B2 GPMC_AD0 )
-  (   B3 ? )
-  (   B4 3.3V_Banks )
-  (   B5 BANK0_4 )
-  (   B6 BANK0_6 )
-  (   B7 GND )
-  (   B8 BANK0_10 )
-  (   B9 3.3V_Banks )
-  (  B10 BANK0_14 )
-  (  B11 GND )
-  (  B12 BANK0_16 )
-  (  B13 3.3V_Banks )
-  (  B14 BANK0_20 )
-  (  B15 ? )
-  (  B16 ? )
-  (   C1 GPMC_AD1 )
-  (   C2 GPMC_AD4 )
-  (   C3 ? )
-  (   C4 BANK0_2 )
-  (   C5 BANK0_22 )
-  (   C6 BANK0_24 )
-  (   C7 BANK0_8 )
-  (   C8 BANK0_29 )
-  (   C9 BANK0_12 )
-  (  C10 BANK0_33 )
-  (  C11 BANK0_37 )
-  (  C12 N-000006 )
-  (  C13 BANK0_18 )
-  (  C14 N-000004 )
-  (  C15 SDRAM_A10 )
-  (  C16 SDRAM_A04 )
-  (   D1 GPMC_AD5 )
-  (   D2 3.3V )
-  (   D3 GPMC_CSN1 )
-  (   D4 GND )
-  (   D5 BANK0_21 )
-  (   D6 BANK0_23 )
-  (   D7 3.3V_Banks )
-  (   D8 BANK0_30 )
-  (   D9 BANK0_31 )
-  (  D10 3.3V_Banks )
-  (  D11 BANK0_39 )
-  (  D12 BANK0_40 )
-  (  D13 GND )
-  (  D14 ? )
-  (  D15 3.3V )
-  (  D16 SDRAM_A12 )
-  (   E1 GPMC_CSN2 )
-  (   E2 GPMC_AD8 )
-  (   E3 ? )
-  (   E4 ? )
-  (   E5 3.3V )
-  (   E6 BANK0_25 )
-  (   E7 BANK0_28 )
-  (   E8 BANK0_27 )
-  (   E9 GND )
-  (  E10 BANK0_34 )
-  (  E11 BANK0_35 )
-  (  E12 ? )
-  (  E13 ? )
-  (  E14 N-000007 )
-  (  E15 SDRAM_WRITE_EN )
-  (  E16 ? )
-  (   F1 GPMC_CLK )
-  (   F2 GPMC_AD11 )
-  (   F3 ? )
-  (   F4 ? )
-  (   F5 ? )
-  (   F6 ? )
-  (   F7 BANK0_26 )
-  (   F8 3.3V )
-  (   F9 BANK0_32 )
-  (  F10 BANK0_36 )
-  (  F11 3.3V )
-  (  F12 ? )
-  (  F13 SDRAM_A08 )
-  (  F14 SDRAM_A09 )
-  (  F15 SDRAM_A07 )
-  (  F16 SDRAM_A02 )
-  (   G1 GPMC_AD14 )
-  (   G2 GND )
-  (   G3 ? )
-  (   G4 3.3V )
-  (   G5 ? )
-  (   G6 ? )
-  (   G7 1.2V )
-  (   G8 GND )
-  (   G9 1.2V )
-  (  G10 3.3V )
-  (  G11 SDRAM_A11 )
-  (  G12 SDRAM_CLK )
-  (  G13 3.3V )
-  (  G14 SDRAM_BANK_SELECT0 )
-  (  G15 GND )
-  (  G16 SDRAM_BANK_SELECT1 )
-  (   H1 GPMC_AD15 )
-  (   H2 GPMC_AD10 )
-  (   H3 ? )
-  (   H4 ? )
-  (   H5 ? )
-  (   H6 3.3V )
-  (   H7 GND )
-  (   H8 1.2V )
-  (   H9 GND )
-  (  H10 1.2V )
-  (  H11 ? )
-  (  H12 GND )
-  (  H13 SDRAM_A03 )
-  (  H14 ? )
-  (  H15 SDRAM_A00 )
-  (  H16 SDRAM_A01 )
-  (   J1 GPMC_AD9 )
-  (   J2 3.3V )
-  (   J3 ? )
-  (   J4 ? )
-  (   J5 GND )
-  (   J6 ? )
-  (   J7 1.2V )
-  (   J8 GND )
-  (   J9 1.2V )
-  (  J10 3.3V )
-  (  J11 SDRAM_A05 )
-  (  J12 SDRAM_A06 )
-  (  J13 ROW_ADDRESS_STROBE )
-  (  J14 SDRAM_DATA04 )
-  (  J15 3.3V )
-  (  J16 SDRAM_DATA05 )
-  (   K1 GPMC_AD12 )
-  (   K2 GPMC_AD13 )
-  (   K3 ? )
-  (   K4 3.3V )
-  (   K5 ? )
-  (   K6 ? )
-  (   K7 GND )
-  (   K8 1.2V )
-  (   K9 GND )
-  (  K10 1.2V )
-  (  K11 SDRAM_LOWER_DATA_MASK )
-  (  K12 SDRAM_UPPER_DATA_MASK )
-  (  K13 3.3V )
-  (  K14 COLUMN_ADDRESS_STROBE )
-  (  K15 SDRAM_DATA06 )
-  (  K16 SDRAM_DATA07 )
-  (   L1 GPMC_WEN )
-  (   L2 GND )
-  (   L3 ? )
-  (   L4 ? )
-  (   L5 ? )
-  (   L6 3.3V )
-  (   L7 ? )
-  (   L8 ? )
-  (   L9 3.3V )
-  (  L10 ? )
-  (  L12 SDRAM_CHIP_SELECT )
-  (  L13 ? )
-  (  L14 SDRAM_DATA00 )
-  (  L15 GND )
-  (  L16 SDRAM_DATA01 )
-  (   M1 GPMC_BEON_CLE )
-  (   M2 GPMC_OEN )
-  (   M3 ? )
-  (   M4 ? )
-  (   M5 ? )
-  (   M6 ? )
-  (   M7 ? )
-  (   M8 GND )
-  (   M9 ? )
-  (  M10 ? )
-  (  M11 ? )
-  (  M12 ? )
-  (  M13 ? )
-  (  M14 DOUT_BUSY )
-  (  M15 SDRAM_DATA02 )
-  (  M16 SDRAM_DATA03 )
-  (   N1 GPMC_ADVN_ALE )
-  (   N2 3.3V )
-  (   N3 ? )
-  (   N4 ? )
-  (   N5 ? )
-  (   N6 ? )
-  (   N7 3.3V )
-  (   N8 ? )
-  (   N9 ? )
-  (  N10 3.3V )
-  (  N11 N-000220 )
-  (  N12 ? )
-  (  N13 GND )
-  (  N14 ? )
-  (  N15 3.3V )
-  (  N16 ? )
-  (   P1 GPMC_AD3 )
-  (   P2 GPMC_AD2 )
-  (   P3 GND )
-  (   P4 ? )
-  (   P5 ? )
-  (   P6 ? )
-  (   P7 ? )
-  (   P8 ? )
-  (   P9 ? )
-  (  P10 /FPGA_Bank_2/SPI0_D0 )
-  (  P11 ? )
-  (  P12 /FPGA_Bank_2/GPMC_BE1N )
-  (  P13 N-000229 )
-  (  P14 GND )
-  (  P15 SDRAM_DATA08 )
-  (  P16 SDRAM_DATA09 )
-  (   R1 GPMC_AD7 )
-  (   R2 GPMC_AD6 )
-  (   R3 N-000231 )
-  (   R4 3.3V )
-  (   R5 ? )
-  (   R6 GND )
-  (   R7 ? )
-  (   R8 3.3V )
-  (   R9 ? )
-  (  R10 GND )
-  (  R11 /FPGA_Bank_2/SPI0_CLK )
-  (  R12 SDRAM_DATA14 )
-  (  R13 3.3V )
-  (  R14 ? )
-  (  R15 SDRAM_DATA10 )
-  (  R16 SDRAM_DATA11 )
-  (   T1 GND )
-  (   T2 N-000181 )
-  (   T3 N-000192 )
-  (   T4 ? )
-  (   T5 N-000178 )
-  (   T6 ? )
-  (   T7 ? )
-  (   T8 ? )
-  (   T9 ? )
-  (  T10 N-000217 )
-  (  T11 N-000182 )
-  (  T12 SDRAM_DATA15 )
-  (  T13 SDRAM_DATA13 )
-  (  T14 SDRAM_DATA12 )
-  (  T15 ? )
-  (  T16 GND )
- )
- ( /4FE27749/50062220 $noname  C401 0.1UF {Lib=0.1UF}
-  (    1 BONE_3.3V )
-  (    2 GND )
- )
- ( /4FE27749/500620B1 $noname  R404 60_4K {Lib=60_4K}
-  (    1 BONE_3.3V )
-  (    2 N-000198 )
- )
- ( /4FE27749/5004FA90 $noname  U405 100MHZOSC {Lib=100MHZOSC}
-  (    1 /FPGA_Bank_2/100MHZ_En )
-  (    2 GND )
-  (    3 N-000192 )
-  (    4 BONE_3.3V )
- )
- ( /4FE27749/5004F31B $noname  R401 330_OHM {Lib=330_OHM}
-  (    1 BONE_3.3V )
-  (    2 N-000229 )
- )
- ( /4FE27749/5004F09D $noname  R402 4_7K {Lib=4_7K}
-  (    1 BONE_3.3V )
-  (    2 N-000220 )
- )
- ( /4FE27749/5004F088 $noname  R403 4_7K {Lib=4_7K}
-  (    1 BONE_3.3V )
-  (    2 N-000217 )
- )
- ( /4FE27749/5004F03E $noname  R407 4_7K {Lib=4_7K}
-  (    1 BONE_3.3V )
-  (    2 /FPGA_Bank_2/I2C2_SDA )
- )
- ( /4FE27749/5004F03B $noname  R406 4_7K {Lib=4_7K}
-  (    1 BONE_3.3V )
-  (    2 /FPGA_Bank_2/I2C_SCL )
- )
- ( /4FE27749/5004F02F $noname  R405 4_7K {Lib=4_7K}
-  (    1 BONE_3.3V )
-  (    2 /FPGA_Bank_2/IRQ# )
- )
- ( /4FE27749/5004E2BF $noname  U404 XRA1207 {Lib=XRA1207}
-  (    1 /FPGA_Bank_2/IRQ# )
-  (    2 BONE_3.3V )
-  (    3 N-000198 )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 DOUT_BUSY )
-  (    8 N-000229 )
-  (    9 N-000220 )
-  (   10 N-000217 )
-  (   11 N-000182 )
-  (   12 GND )
-  (   13 /FPGA_Bank_2/100MHZ_En )
-  (   14 N-000181 )
-  (   15 N-000231 )
-  (   16 ? )
-  (   17 N-000178 )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 GND )
-  (   22 /FPGA_Bank_2/I2C_SCL )
-  (   23 /FPGA_Bank_2/I2C2_SDA )
-  (   24 BONE_3.3V )
- )
- ( /4FE27749/4FFE4644 $noname  U401 BEAGLEBONE {Lib=BEAGLEBONE}
-  (   B1 GND )
-  (   B2 GND )
-  (   B3 GPMC_AD6 )
-  (   B4 GPMC_AD7 )
-  (   B5 GPMC_AD2 )
-  (   B6 GPMC_AD3 )
-  (   B7 GPMC_ADVN_ALE )
-  (   B8 GPMC_OEN )
-  (   B9 GPMC_BEON_CLE )
-  (  B10 GPMC_WEN )
-  (  B11 GPMC_AD13 )
-  (  B12 GPMC_AD12 )
-  (  B13 GPMC_AD9 )
-  (  B14 GPMC_AD10 )
-  (  B15 GPMC_AD15 )
-  (  B16 GPMC_AD14 )
-  (  B17 GPMC_AD11 )
-  (  B18 GPMC_CLK )
-  (  B19 GPMC_AD8 )
-  (  B20 GPMC_CSN2 )
-  (  B21 GPMC_CSN1 )
-  (  B22 GPMC_AD5 )
-  (  B23 GPMC_AD4 )
-  (  B24 GPMC_AD1 )
-  (  B25 GPMC_AD0 )
-  (  B26 GPMC_CSN0 )
-  (  B27 ? )
-  (  B28 ? )
-  (  B29 ? )
-  (  B30 ? )
-  (  B31 ? )
-  (  B32 ? )
-  (  B33 ? )
-  (  B34 ? )
-  (  B35 ? )
-  (  B36 ? )
-  (  B37 ? )
-  (  B38 ? )
-  (  B39 ? )
-  (  B40 ? )
-  (  B41 ? )
-  (  B42 ? )
-  (  B43 ? )
-  (  B44 ? )
-  (  B45 ? )
-  (  B46 ? )
-  (   C1 GND )
-  (   C2 GND )
-  (   C3 BONE_3.3V )
-  (   C4 ? )
-  (   C5 ? )
-  (   C6 ? )
-  (   C7 ? )
-  (   C8 ? )
-  (   C9 ? )
-  (  C10 ? )
-  (  C11 ? )
-  (  C12 /FPGA_Bank_2/GPMC_BE1N )
-  (  C13 ? )
-  (  C14 ? )
-  (  C15 /FPGA_Bank_2/IRQ# )
-  (  C16 ? )
-  (  C17 ? )
-  (  C18 ? )
-  (  C19 /FPGA_Bank_2/I2C_SCL )
-  (  C20 /FPGA_Bank_2/I2C2_SDA )
-  (  C21 /FPGA_Bank_2/SPI0_D0 )
-  (  C22 /FPGA_Bank_2/SPI0_CLK )
-  (  C23 ? )
-  (  C24 ? )
-  (  C25 ? )
-  (  C26 ? )
-  (  C27 ? )
-  (  C28 ? )
-  (  C29 ? )
-  (  C30 ? )
-  (  C31 ? )
-  (  C32 ? )
-  (  C33 ? )
-  (  C34 ? )
-  (  C35 ? )
-  (  C36 ? )
-  (  C37 ? )
-  (  C38 ? )
-  (  C39 ? )
-  (  C40 ? )
-  (  C41 ? )
-  (  C42 ? )
-  (  C43 ? )
-  (  C44 ? )
-  (  C45 ? )
-  (  C46 ? )
- )
- ( /4FE276F4/50857930 $noname  U503 W9825G6JH {Lib=W9825G6JH}
-  (    1 3.3V )
-  (    2 SDRAM_DATA00 )
-  (    3 3.3V )
-  (    4 SDRAM_DATA01 )
-  (    5 SDRAM_DATA02 )
-  (    6 GND )
-  (    7 SDRAM_DATA03 )
-  (    8 SDRAM_DATA04 )
-  (    9 3.3V )
-  (   10 SDRAM_DATA05 )
-  (   11 SDRAM_DATA06 )
-  (   12 GND )
-  (   13 SDRAM_DATA07 )
-  (   14 3.3V )
-  (   15 SDRAM_LOWER_DATA_MASK )
-  (   16 SDRAM_WRITE_EN )
-  (   17 COLUMN_ADDRESS_STROBE )
-  (   18 ROW_ADDRESS_STROBE )
-  (   19 SDRAM_CHIP_SELECT )
-  (   20 SDRAM_BANK_SELECT0 )
-  (   21 SDRAM_BANK_SELECT1 )
-  (   22 SDRAM_A10 )
-  (   23 SDRAM_A00 )
-  (   24 SDRAM_A01 )
-  (   25 SDRAM_A02 )
-  (   26 SDRAM_A03 )
-  (   27 3.3V )
-  (   28 GND )
-  (   29 SDRAM_A04 )
-  (   30 SDRAM_A05 )
-  (   31 SDRAM_A06 )
-  (   32 SDRAM_A07 )
-  (   33 SDRAM_A08 )
-  (   34 SDRAM_A09 )
-  (   35 SDRAM_A11 )
-  (   36 SDRAM_A12 )
-  (   37 ? )
-  (   38 SDRAM_CLK )
-  (   39 SDRAM_UPPER_DATA_MASK )
-  (   40 ? )
-  (   41 GND )
-  (   42 SDRAM_DATA08 )
-  (   43 3.3V )
-  (   44 SDRAM_DATA09 )
-  (   45 SDRAM_DATA10 )
-  (   46 GND )
-  (   47 SDRAM_DATA11 )
-  (   48 SDRAM_DATA12 )
-  (   49 3.3V )
-  (   50 SDRAM_DATA13 )
-  (   51 SDRAM_DATA14 )
-  (   52 GND )
-  (   53 SDRAM_DATA15 )
-  (   54 GND )
- )
- ( /4FE276D1/50647B5F $noname  U501 FPGA_20_PIN_HEADER {Lib=FPGA_20_PIN_HEADER}
-  (    1 BANK0_21 )
-  (    2 BANK0_22 )
-  (    3 BANK0_23 )
-  (    4 BANK0_24 )
-  (    5 BANK0_25 )
-  (    6 BANK0_26 )
-  (    7 BANK0_27 )
-  (    8 BANK0_28 )
-  (    9 BANK0_29 )
-  (   10 BANK0_30 )
-  (   11 BANK0_31 )
-  (   12 BANK0_32 )
-  (   13 BANK0_33 )
-  (   14 BANK0_34 )
-  (   15 BANK0_35 )
-  (   16 BANK0_36 )
-  (   17 BANK0_37 )
-  (   18 BANK0_38 )
-  (   19 BANK0_39 )
-  (   20 BANK0_40 )
- )
- ( /4FE276D1/500F42DA $noname  U601 FPGA_20_PIN_HEADER {Lib=FPGA_20_PIN_HEADER}
-  (    1 BANK0_1 )
-  (    2 BANK0_2 )
-  (    3 BANK0_3 )
-  (    4 BANK0_4 )
-  (    5 BANK0_5 )
-  (    6 BANK0_6 )
-  (    7 BANK0_7 )
-  (    8 BANK0_8 )
-  (    9 BANK0_9 )
-  (   10 BANK0_10 )
-  (   11 BANK0_11 )
-  (   12 BANK0_12 )
-  (   13 BANK0_13 )
-  (   14 BANK0_14 )
-  (   15 BANK0_15 )
-  (   16 BANK0_16 )
-  (   17 BANK0_17 )
-  (   18 BANK0_18 )
-  (   19 BANK0_19 )
-  (   20 BANK0_20 )
- )
- ( /4FE2765E/500F54B3 $noname  C706 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F54AD $noname  C711 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F54A9 $noname  C710 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F54A3 $noname  C715 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F5493 $noname  C702 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F548A $noname  C701 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F5471 $noname  C712 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F546B $noname  C705 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F5466 $noname  C704 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F5460 $noname  C703 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F5454 $noname  C708 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F5432 $noname  C707 0.47UF {Lib=0.47UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F53F5 $noname  C718 4.7UF {Lib=4.7UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F53F2 $noname  C717 4.7UF {Lib=4.7UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F53EE $noname  C716 4.7UF {Lib=4.7UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F53EA $noname  C709 4.7UF {Lib=4.7UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F53E6 $noname  C714 4.7UF {Lib=4.7UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F53E0 $noname  C713 4.7UF {Lib=4.7UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F538A $noname  C724 100UF {Lib=100UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F5384 $noname  C723 100UF {Lib=100UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F537F $noname  C722 100UF {Lib=100UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F5374 $noname  C721 100UF {Lib=100UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F536F $noname  C719 100UF {Lib=100UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F533C $noname  C720 100UF {Lib=100UF}
-  (    1 ? )
-  (    2 GND )
- )
- ( /4FE2765E/500F5248 $noname  U701 JTAG_CONN {Lib=JTAG_CONN}
-  (    1 N-000001 )
-  (    2 N-000006 )
-  (    3 N-000007 )
-  (    4 N-000004 )
-  (    5 GND )
-  (    6 3.3V )
+ ( /4FE6399D/50831268 SM0603_Capa C201 10UF
+  ( 1 +5V_supply )
+  ( 2 GND )
+ )
+ ( /4FE6399D/508312EC SM0603_Capa C202 2_2NF
+  ( 1 N-000267 )
+  ( 2 GND )
+ )
+ ( /4FE6399D/50832A58 SM0603_Capa C203 10UF
+  ( 1 +5V_supply )
+  ( 2 GND )
+ )
+ ( /4FE6399D/50832A57 SM0603_Capa C204 2_2NF
+  ( 1 N-000272 )
+  ( 2 GND )
+ )
+ ( /4FE6399D/508315B0 SM0603_Capa C205 22UF
+  ( 1 N-000271 )
+  ( 2 GND )
+ )
+ ( /4FE6399D/50831EA1 SM0603_Capa C206 100NF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE6399D/5083218C SM0603_Capa C207 10UF
+  ( 1 +5V_supply )
+  ( 2 GND )
+ )
+ ( /4FE6399D/50832194 SM0603_Capa C208 2_2NF
+  ( 1 N-000278 )
+  ( 2 GND )
+ )
+ ( /4FE6399D/50832B74 SM0603_Capa C209 220NF
+  ( 1 1.2V )
+  ( 2 GND )
+ )
+ ( /4FE27749/50062220 SM0603_Capa C401 0.1UF
+  ( 1 BONE_3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F548A SM0603_Capa C701 0.47UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F5493 SM0603_Capa C702 0.47UF
+  ( 1 1.2V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F5460 SM0603_Capa C703 0.47UF
+  ( 1 3.3V_Banks )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F5466 SM0603_Capa C704 0.47UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F546B SM0603_Capa C705 0.47UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F54B3 SM0603_Capa C706 0.47UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F5432 SM0603_Capa C707 0.47UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F5454 SM0603_Capa C708 0.47UF
+  ( 1 1.2V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F53EA SM0603_Capa C709 4.7UF
+  ( 1 3.3V_Banks )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F54A9 SM0603_Capa C710 0.47UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F54AD SM0603_Capa C711 0.47UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F5471 SM0603_Capa C712 0.47UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F53E0 SM0603_Capa C713 4.7UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F53E6 SM0603_Capa C714 4.7UF
+  ( 1 1.2V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F54A3 SM0603_Capa C715 0.47UF
+  ( 1 3.3V_Banks )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F53EE SM0603_Capa C716 4.7UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F53F2 SM0603_Capa C717 4.7UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F53F5 SM0603_Capa C718 4.7UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F536F SM1206 C719 100UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F533C SM1206 C720 100UF
+  ( 1 1.2V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F5374 SM1206 C721 100UF
+  ( 1 3.3V_Banks )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F537F SM1206 C722 100UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F5384 SM1206 C723 100UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE2765E/500F538A SM1206 C724 100UF
+  ( 1 3.3V )
+  ( 2 GND )
+ )
+ ( /4FE6399D/50831318 L_5_7x_4_7 L201 2.2UH
+  ( 1 N-000271 )
+  ( 2 N-000270 )
+ )
+ ( /4FE6399D/5083174D L_5_7x_4_7 L202 100NH
+  ( 1 N-000271 )
+  ( 2 3.3V )
+ )
+ ( /4FE6399D/50832A55 L_5_7x_4_7 L203 2.2UH
+  ( 1 N-000274 )
+  ( 2 N-000276 )
+ )
+ ( /4FE6399D/50832B67 L_5_7x_4_7 L204 100NH
+  ( 1 N-000274 )
+  ( 2 1.2V )
+ )
+ ( /4FE6399D/508321A6 L_5_7x_4_7 L205 2.2UH
+  ( 1 3.3V_Banks )
+  ( 2 N-000279 )
+ )
+ ( /4FE6399D/508313B7 SM0603_Resistor R201 100K
+  ( 1 N-000269 )
+  ( 2 N-000271 )
+ )
+ ( /4FE6399D/50832A54 SM0603_Resistor R202 100K
+  ( 1 N-000275 )
+  ( 2 N-000274 )
+ )
+ ( /4FE6399D/50832AF7 SM0603_Resistor R203 10K
+  ( 1 N-000274 )
+  ( 2 N-000273 )
+ )
+ ( /4FE6399D/50832A52 SM0603_Resistor R204 20K
+  ( 1 N-000273 )
+  ( 2 GND )
+ )
+ ( /4FE6399D/508321AF SM0603_Resistor R205 100K
+  ( 1 N-000280 )
+  ( 2 3.3V_Banks )
+ )
+ ( /4FE6399D/50832683 SM0603_Resistor R206 62K
+  ( 1 3.3V_Banks )
+  ( 2 N-000277 )
+ )
+ ( /4FE6399D/508326BE SM0603_Resistor R207 20K
+  ( 1 N-000277 )
+  ( 2 GND )
+ )
+ ( /4FE27749/5004F31B SM0603_Resistor R401 330_OHM
+  ( 1 BONE_3.3V )
+  ( 2 /FPGA_Bank_2/DONE )
+ )
+ ( /4FE27749/5004F09D SM0603_Resistor R402 4_7K
+  ( 1 BONE_3.3V )
+  ( 2 /FPGA_Bank_2/M1 )
+ )
+ ( /4FE27749/5004F088 SM0603_Resistor R403 4_7K
+  ( 1 BONE_3.3V )
+  ( 2 /FPGA_Bank_2/CSI_B )
+ )
+ ( /4FE27749/500620B1 SM0603_Resistor R404 60_4K
+  ( 1 BONE_3.3V )
+  ( 2 N-000185 )
+ )
+ ( /4FE27749/5004F02F SM0603_Resistor R405 4_7K
+  ( 1 BONE_3.3V )
+  ( 2 /FPGA_Bank_2/IRQ# )
+ )
+ ( /4FE27749/5004F03B SM0603_Resistor R406 4_7K
+  ( 1 BONE_3.3V )
+  ( 2 /FPGA_Bank_2/I2C_SCL )
+ )
+ ( /4FE27749/5004F03E SM0603_Resistor R407 4_7K
+  ( 1 BONE_3.3V )
+  ( 2 /FPGA_Bank_2/I2C2_SDA )
+ )
+ ( /4FE27749/50883F8C SM0603_Resistor R408 10K
+  ( 1 BONE_3.3V )
+  ( 2 N-000106 )
+ )
+ ( /4FE27749/50883F85 SM0603_Resistor R409 10K
+  ( 1 BONE_3.3V )
+  ( 2 N-000157 )
+ )
+ ( /4FE27749/50883F91 SM0603_Resistor R410 10K
+  ( 1 BONE_3.3V )
+  ( 2 N-000138 )
+ )
+ ( /4FE6399D/500F569F DC_Barrel U201 DC_BARREL
+  ( 1 +5V_supply )
+  ( 2 GND )
+ )
+ ( /4FE6399D/50831164 QFN-16 U202 TPS62132
+  ( 1 N-000270 )
+  ( 2 N-000270 )
+  ( 3 N-000270 )
+  ( 4 N-000269 )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 GND )
+  ( 9 N-000267 )
+  ( 10 +5V_supply )
+  ( 11 +5V_supply )
+  ( 12 +5V_supply )
+  ( 13 +5V_supply )
+  ( 14 N-000271 )
+  ( 15 GND )
+  ( 16 GND )
+  ( 17 GND )
+ )
+ ( /4FE6399D/50832A59 QFN-16 U203 TPS62130
+  ( 1 N-000276 )
+  ( 2 N-000276 )
+  ( 3 N-000276 )
+  ( 4 N-000275 )
+  ( 5 N-000273 )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 GND )
+  ( 9 N-000272 )
+  ( 10 +5V_supply )
+  ( 11 +5V_supply )
+  ( 12 +5V_supply )
+  ( 13 +5V_supply )
+  ( 14 N-000274 )
+  ( 15 GND )
+  ( 16 GND )
+  ( 17 GND )
+ )
+ ( /4FE6399D/50832172 QFN-16 U204 TPS62130
+  ( 1 N-000279 )
+  ( 2 N-000279 )
+  ( 3 N-000279 )
+  ( 4 N-000280 )
+  ( 5 N-000277 )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 GND )
+  ( 9 N-000278 )
+  ( 10 +5V_supply )
+  ( 11 +5V_supply )
+  ( 12 +5V_supply )
+  ( 13 +5V_supply )
+  ( 14 3.3V_Banks )
+  ( 15 GND )
+  ( 16 GND )
+  ( 17 GND )
+ )
+ ( /4FE27749/4FFE4644 BEAGLEBONE U401 BEAGLEBONE
+  ( B1 GND )
+  ( B2 GND )
+  ( B3 GPMC_AD6 )
+  ( B4 GPMC_AD7 )
+  ( B5 GPMC_AD2 )
+  ( B6 GPMC_AD3 )
+  ( B7 GPMC_ADVN_ALE )
+  ( B8 GPMC_OEN )
+  ( B9 GPMC_BEON_CLE )
+  ( B10 GPMC_WEN )
+  ( B11 GPMC_AD13 )
+  ( B12 GPMC_AD12 )
+  ( B13 GPMC_AD9 )
+  ( B14 GPMC_AD10 )
+  ( B15 GPMC_AD15 )
+  ( B16 GPMC_AD14 )
+  ( B17 GPMC_AD11 )
+  ( B18 GPMC_CLK )
+  ( B19 GPMC_AD8 )
+  ( B20 GPMC_CSN2 )
+  ( B21 GPMC_CSN1 )
+  ( B22 GPMC_AD5 )
+  ( B23 GPMC_AD4 )
+  ( B24 GPMC_AD1 )
+  ( B25 GPMC_AD0 )
+  ( B26 GPMC_CSN0 )
+  ( B27 ? )
+  ( B28 ? )
+  ( B29 ? )
+  ( B30 ? )
+  ( B31 ? )
+  ( B32 ? )
+  ( B33 ? )
+  ( B34 ? )
+  ( B35 ? )
+  ( B36 ? )
+  ( B37 ? )
+  ( B38 ? )
+  ( B39 ? )
+  ( B40 ? )
+  ( B41 ? )
+  ( B42 ? )
+  ( B43 ? )
+  ( B44 ? )
+  ( B45 ? )
+  ( B46 ? )
+  ( C1 GND )
+  ( C2 GND )
+  ( C3 BONE_3.3V )
+  ( C4 ? )
+  ( C5 ? )
+  ( C6 ? )
+  ( C7 ? )
+  ( C8 ? )
+  ( C9 ? )
+  ( C10 ? )
+  ( C11 ? )
+  ( C12 /FPGA_Bank_2/GPMC_BE1N )
+  ( C13 ? )
+  ( C14 ? )
+  ( C15 /FPGA_Bank_2/IRQ# )
+  ( C16 BONE_INTERRUPT )
+  ( C17 /FPGA_Bank_2/SPI0_CS0 )
+  ( C18 /FPGA_Bank_2/SPI0_D1 )
+  ( C19 /FPGA_Bank_2/I2C_SCL )
+  ( C20 /FPGA_Bank_2/I2C2_SDA )
+  ( C21 /FPGA_Bank_2/SPI0_D0 )
+  ( C22 /FPGA_Bank_2/SPI0_CLK )
+  ( C23 ? )
+  ( C24 ? )
+  ( C25 ? )
+  ( C26 ? )
+  ( C27 ? )
+  ( C28 ? )
+  ( C29 ? )
+  ( C30 ? )
+  ( C31 ? )
+  ( C32 ? )
+  ( C33 ? )
+  ( C34 ? )
+  ( C35 ? )
+  ( C36 ? )
+  ( C37 ? )
+  ( C38 ? )
+  ( C39 ? )
+  ( C40 ? )
+  ( C41 ? )
+  ( C42 ? )
+  ( C43 ? )
+  ( C44 ? )
+  ( C45 ? )
+  ( C46 ? )
+ )
+ ( /4FE27749/5004E2BF tssop-24 U404 XRA1207
+  ( 1 /FPGA_Bank_2/IRQ# )
+  ( 2 BONE_3.3V )
+  ( 3 N-000185 )
+  ( 4 DOUT_BUSY )
+  ( 5 /FPGA_Bank_2/DONE )
+  ( 6 /FPGA_Bank_2/CMPMISO )
+  ( 7 /FPGA_Bank_2/CSI_B )
+  ( 8 /FPGA_Bank_2/M1 )
+  ( 9 /FPGA_Bank_2/RDWR_B )
+  ( 10 /FPGA_Bank_2/INIT_B )
+  ( 11 /FPGA_Bank_2/PROGRAM_B )
+  ( 12 GND )
+  ( 13 /FPGA_Bank_2/100MHZ_En )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 GND )
+  ( 22 /FPGA_Bank_2/I2C_SCL )
+  ( 23 /FPGA_Bank_2/I2C2_SDA )
+  ( 24 BONE_3.3V )
+ )
+ ( /4FE27749/5004FA90 Oscillator U405 100MHZOSC
+  ( 1 /FPGA_Bank_2/100MHZ_En )
+  ( 2 GND )
+  ( 3 /FPGA_Bank_2/GCLK )
+  ( 4 BONE_3.3V )
+ )
+ ( /4FE27749/50883EF7 eepromSwitch U406 EEPROM_SWITCH
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 N-000157 )
+  ( 4 N-000138 )
+ )
+ ( /4FE27749/50883E65 TSSOP8 U407 CAT24C256
+  ( 1 N-000138 )
+  ( 2 N-000157 )
+  ( 3 N-000106 )
+  ( 4 GND )
+  ( 5 /FPGA_Bank_2/I2C2_SDA )
+  ( 6 /FPGA_Bank_2/I2C_SCL )
+  ( 7 ? )
+  ( 8 BONE_3.3V )
+ )
+ ( /4FE276D1/50647B5F fpga_header U501 FPGA_20_PIN_HEADER
+  ( 1 BANK0_21 )
+  ( 2 BANK0_22 )
+  ( 3 BANK0_23 )
+  ( 4 BANK0_24 )
+  ( 5 BANK0_25 )
+  ( 6 BANK0_26 )
+  ( 7 BANK0_27 )
+  ( 8 BANK0_28 )
+  ( 9 BANK0_29 )
+  ( 10 BANK0_30 )
+  ( 11 BANK0_31 )
+  ( 12 BANK0_32 )
+  ( 13 BANK0_33 )
+  ( 14 BANK0_34 )
+  ( 15 BANK0_35 )
+  ( 16 BANK0_36 )
+  ( 17 BANK0_37 )
+  ( 18 BANK0_38 )
+  ( 19 BANK0_39 )
+  ( 20 BANK0_40 )
+ )
+ ( /4FE276F4/50857930 TSSOP-54 U503 W9825G6JH
+  ( 1 3.3V )
+  ( 2 SDRAM_DATA00 )
+  ( 3 3.3V )
+  ( 4 SDRAM_DATA01 )
+  ( 5 SDRAM_DATA02 )
+  ( 6 GND )
+  ( 7 SDRAM_DATA03 )
+  ( 8 SDRAM_DATA04 )
+  ( 9 3.3V )
+  ( 10 SDRAM_DATA05 )
+  ( 11 SDRAM_DATA06 )
+  ( 12 GND )
+  ( 13 SDRAM_DATA07 )
+  ( 14 3.3V )
+  ( 15 SDRAM_LOWER_DATA_MASK )
+  ( 16 SDRAM_WRITE_EN )
+  ( 17 COLUMN_ADDRESS_STROBE )
+  ( 18 ROW_ADDRESS_STROBE )
+  ( 19 SDRAM_CHIP_SELECT )
+  ( 20 SDRAM_BANK_SELECT0 )
+  ( 21 SDRAM_BANK_SELECT1 )
+  ( 22 SDRAM_A10 )
+  ( 23 SDRAM_A00 )
+  ( 24 SDRAM_A01 )
+  ( 25 SDRAM_A02 )
+  ( 26 SDRAM_A03 )
+  ( 27 3.3V )
+  ( 28 GND )
+  ( 29 SDRAM_A04 )
+  ( 30 SDRAM_A05 )
+  ( 31 SDRAM_A06 )
+  ( 32 SDRAM_A07 )
+  ( 33 SDRAM_A08 )
+  ( 34 SDRAM_A09 )
+  ( 35 SDRAM_A11 )
+  ( 36 SDRAM_A12 )
+  ( 37 SDRAM_CLKE )
+  ( 38 SDRAM_CLK )
+  ( 39 SDRAM_UPPER_DATA_MASK )
+  ( 40 ? )
+  ( 41 GND )
+  ( 42 SDRAM_DATA08 )
+  ( 43 3.3V )
+  ( 44 SDRAM_DATA09 )
+  ( 45 SDRAM_DATA10 )
+  ( 46 GND )
+  ( 47 SDRAM_DATA11 )
+  ( 48 SDRAM_DATA12 )
+  ( 49 3.3V )
+  ( 50 SDRAM_DATA13 )
+  ( 51 SDRAM_DATA14 )
+  ( 52 GND )
+  ( 53 SDRAM_DATA15 )
+  ( 54 GND )
+ )
+ ( /4FE276D1/500F42DA fpga_header U601 FPGA_20_PIN_HEADER
+  ( 1 BANK0_1 )
+  ( 2 BANK0_2 )
+  ( 3 BANK0_3 )
+  ( 4 BANK0_4 )
+  ( 5 BANK0_5 )
+  ( 6 BANK0_6 )
+  ( 7 BANK0_7 )
+  ( 8 BANK0_8 )
+  ( 9 BANK0_9 )
+  ( 10 BANK0_10 )
+  ( 11 BANK0_11 )
+  ( 12 BANK0_12 )
+  ( 13 BANK0_13 )
+  ( 14 BANK0_14 )
+  ( 15 BANK0_15 )
+  ( 16 BANK0_16 )
+  ( 17 BANK0_17 )
+  ( 18 BANK0_18 )
+  ( 19 BANK0_19 )
+  ( 20 BANK0_20 )
+ )
+ ( /4FE2765E/500F5248 JTAG_6_Header U701 JTAG_CONN
+  ( 1 N-000001 )
+  ( 2 N-000005 )
+  ( 3 N-000004 )
+  ( 4 N-000002 )
+  ( 5 GND )
+  ( 6 3.3V )
+ )
+ ( /4FE27757/4FE55256 XC6SLX25FTG256 U702 XC6SLX25FTG256
+  ( A1 GND )
+  ( A2 ? )
+  ( A3 ? )
+  ( A4 BANK0_1 )
+  ( A5 BANK0_3 )
+  ( A6 BANK0_5 )
+  ( A7 BANK0_7 )
+  ( A8 BANK0_9 )
+  ( A9 BANK0_11 )
+  ( A10 BANK0_13 )
+  ( A11 BANK0_38 )
+  ( A12 BANK0_15 )
+  ( A13 BANK0_17 )
+  ( A14 BANK0_19 )
+  ( A15 N-000001 )
+  ( A16 GND )
+  ( B1 GPMC_CSN0 )
+  ( B2 GPMC_AD0 )
+  ( B3 ? )
+  ( B4 3.3V_Banks )
+  ( B5 BANK0_4 )
+  ( B6 BANK0_6 )
+  ( B7 GND )
+  ( B8 BANK0_10 )
+  ( B9 3.3V_Banks )
+  ( B10 BANK0_14 )
+  ( B11 GND )
+  ( B12 BANK0_16 )
+  ( B13 3.3V_Banks )
+  ( B14 BANK0_20 )
+  ( B15 ? )
+  ( B16 ? )
+  ( C1 GPMC_AD1 )
+  ( C2 GPMC_AD4 )
+  ( C3 ? )
+  ( C4 BANK0_2 )
+  ( C5 BANK0_22 )
+  ( C6 BANK0_24 )
+  ( C7 BANK0_8 )
+  ( C8 BANK0_29 )
+  ( C9 BANK0_12 )
+  ( C10 BANK0_33 )
+  ( C11 BANK0_37 )
+  ( C12 N-000005 )
+  ( C13 BANK0_18 )
+  ( C14 N-000002 )
+  ( C15 SDRAM_A10 )
+  ( C16 SDRAM_A04 )
+  ( D1 GPMC_AD5 )
+  ( D2 3.3V )
+  ( D3 GPMC_CSN1 )
+  ( D4 GND )
+  ( D5 BANK0_21 )
+  ( D6 BANK0_23 )
+  ( D7 3.3V_Banks )
+  ( D8 BANK0_30 )
+  ( D9 BANK0_31 )
+  ( D10 3.3V_Banks )
+  ( D11 BANK0_39 )
+  ( D12 BANK0_40 )
+  ( D13 GND )
+  ( D14 SDRAM_CLKE )
+  ( D15 3.3V )
+  ( D16 SDRAM_A12 )
+  ( E1 GPMC_CSN2 )
+  ( E2 GPMC_AD8 )
+  ( E3 ? )
+  ( E4 ? )
+  ( E5 3.3V )
+  ( E6 BANK0_25 )
+  ( E7 BANK0_28 )
+  ( E8 BANK0_27 )
+  ( E9 GND )
+  ( E10 BANK0_34 )
+  ( E11 BANK0_35 )
+  ( E12 ? )
+  ( E13 ? )
+  ( E14 N-000004 )
+  ( E15 SDRAM_WRITE_EN )
+  ( E16 ? )
+  ( F1 GPMC_CLK )
+  ( F2 GPMC_AD11 )
+  ( F3 ? )
+  ( F4 ? )
+  ( F5 ? )
+  ( F6 ? )
+  ( F7 BANK0_26 )
+  ( F8 3.3V )
+  ( F9 BANK0_32 )
+  ( F10 BANK0_36 )
+  ( F11 3.3V )
+  ( F12 ? )
+  ( F13 SDRAM_A08 )
+  ( F14 SDRAM_A09 )
+  ( F15 SDRAM_A07 )
+  ( F16 SDRAM_A02 )
+  ( G1 GPMC_AD14 )
+  ( G2 GND )
+  ( G3 ? )
+  ( G4 3.3V )
+  ( G5 ? )
+  ( G6 ? )
+  ( G7 1.2V )
+  ( G8 GND )
+  ( G9 1.2V )
+  ( G10 3.3V )
+  ( G11 SDRAM_A11 )
+  ( G12 SDRAM_CLK )
+  ( G13 3.3V )
+  ( G14 SDRAM_BANK_SELECT0 )
+  ( G15 GND )
+  ( G16 SDRAM_BANK_SELECT1 )
+  ( H1 GPMC_AD15 )
+  ( H2 GPMC_AD10 )
+  ( H3 ? )
+  ( H4 ? )
+  ( H5 ? )
+  ( H6 3.3V )
+  ( H7 GND )
+  ( H8 1.2V )
+  ( H9 GND )
+  ( H10 1.2V )
+  ( H11 ? )
+  ( H12 GND )
+  ( H13 SDRAM_A03 )
+  ( H14 ? )
+  ( H15 SDRAM_A00 )
+  ( H16 SDRAM_A01 )
+  ( J1 GPMC_AD9 )
+  ( J2 3.3V )
+  ( J3 ? )
+  ( J4 ? )
+  ( J5 GND )
+  ( J6 ? )
+  ( J7 1.2V )
+  ( J8 GND )
+  ( J9 1.2V )
+  ( J10 3.3V )
+  ( J11 SDRAM_A05 )
+  ( J12 SDRAM_A06 )
+  ( J13 ROW_ADDRESS_STROBE )
+  ( J14 SDRAM_DATA04 )
+  ( J15 3.3V )
+  ( J16 SDRAM_DATA05 )
+  ( K1 GPMC_AD12 )
+  ( K2 GPMC_AD13 )
+  ( K3 ? )
+  ( K4 3.3V )
+  ( K5 ? )
+  ( K6 ? )
+  ( K7 GND )
+  ( K8 1.2V )
+  ( K9 GND )
+  ( K10 1.2V )
+  ( K11 SDRAM_LOWER_DATA_MASK )
+  ( K12 SDRAM_UPPER_DATA_MASK )
+  ( K13 3.3V )
+  ( K14 COLUMN_ADDRESS_STROBE )
+  ( K15 SDRAM_DATA06 )
+  ( K16 SDRAM_DATA07 )
+  ( L1 GPMC_WEN )
+  ( L2 GND )
+  ( L3 ? )
+  ( L4 ? )
+  ( L5 ? )
+  ( L6 3.3V )
+  ( L7 ? )
+  ( L8 ? )
+  ( L9 3.3V )
+  ( L10 ? )
+  ( L12 SDRAM_CHIP_SELECT )
+  ( L13 ? )
+  ( L14 SDRAM_DATA00 )
+  ( L15 GND )
+  ( L16 SDRAM_DATA01 )
+  ( M1 GPMC_BEON_CLE )
+  ( M2 GPMC_OEN )
+  ( M3 ? )
+  ( M4 ? )
+  ( M5 ? )
+  ( M6 ? )
+  ( M7 ? )
+  ( M8 GND )
+  ( M9 ? )
+  ( M10 ? )
+  ( M11 ? )
+  ( M12 /FPGA_Bank_2/SPI0_CS0 )
+  ( M13 ? )
+  ( M14 DOUT_BUSY )
+  ( M15 SDRAM_DATA02 )
+  ( M16 SDRAM_DATA03 )
+  ( N1 GPMC_ADVN_ALE )
+  ( N2 3.3V )
+  ( N3 ? )
+  ( N4 ? )
+  ( N5 ? )
+  ( N6 ? )
+  ( N7 3.3V )
+  ( N8 ? )
+  ( N9 ? )
+  ( N10 3.3V )
+  ( N11 /FPGA_Bank_2/M1 )
+  ( N12 /FPGA_Bank_2/SPI0_D1 )
+  ( N13 GND )
+  ( N14 ? )
+  ( N15 3.3V )
+  ( N16 ? )
+  ( P1 GPMC_AD3 )
+  ( P2 GPMC_AD2 )
+  ( P3 GND )
+  ( P4 ? )
+  ( P5 ? )
+  ( P6 ? )
+  ( P7 ? )
+  ( P8 ? )
+  ( P9 ? )
+  ( P10 /FPGA_Bank_2/SPI0_D0 )
+  ( P11 ? )
+  ( P12 /FPGA_Bank_2/GPMC_BE1N )
+  ( P13 /FPGA_Bank_2/DONE )
+  ( P14 GND )
+  ( P15 SDRAM_DATA08 )
+  ( P16 SDRAM_DATA09 )
+  ( R1 GPMC_AD7 )
+  ( R2 GPMC_AD6 )
+  ( R3 /FPGA_Bank_2/INIT_B )
+  ( R4 3.3V )
+  ( R5 ? )
+  ( R6 GND )
+  ( R7 ? )
+  ( R8 3.3V )
+  ( R9 /FPGA_Bank_2/I2C_SCL )
+  ( R10 GND )
+  ( R11 /FPGA_Bank_2/SPI0_CLK )
+  ( R12 SDRAM_DATA14 )
+  ( R13 3.3V )
+  ( R14 ? )
+  ( R15 SDRAM_DATA10 )
+  ( R16 SDRAM_DATA11 )
+  ( T1 GND )
+  ( T2 /FPGA_Bank_2/PROGRAM_B )
+  ( T3 ? )
+  ( T4 ? )
+  ( T5 /FPGA_Bank_2/RDWR_B )
+  ( T6 ? )
+  ( T7 /FPGA_Bank_2/GCLK )
+  ( T8 ? )
+  ( T9 /FPGA_Bank_2/I2C2_SDA )
+  ( T10 /FPGA_Bank_2/CSI_B )
+  ( T11 /FPGA_Bank_2/CMPMISO )
+  ( T12 SDRAM_DATA15 )
+  ( T13 SDRAM_DATA13 )
+  ( T14 SDRAM_DATA12 )
+  ( T15 BONE_INTERRUPT )
+  ( T16 GND )
  )
 )
 *
-{ Pin List by Nets
-Net 1 "" ""
- U701 1
- U702 A15
-Net 2 "3.3V_Banks" "3.3V_Banks"
- U204 14
- U702 D10
- R206 1
- L205 1
- R205 2
- U702 B13
- U702 B4
- U702 D7
- U702 B9
-Net 3 "GND" "GND"
- C712 2
- C716 2
- C724 2
- C722 2
- U401 C2
- C203 2
- C204 2
- R204 2
- R207 2
- U401 B1
- U401 B2
- C401 2
- U203 8
- U203 6
- C715 2
- C717 2
- C701 2
- C705 2
- C709 2
- C703 2
- C723 2
- C713 2
- C706 2
- C718 2
- C702 2
- C704 2
- C714 2
- C710 2
- C708 2
- U203 16
- U203 7
- U203 15
- U203 17
- C707 2
- C711 2
- U503 52
- U503 12
- U204 17
- U204 16
- U503 28
- U204 6
- U204 8
- U204 7
- U204 15
- U503 54
- U202 7
- U202 6
- U202 5
- C201 2
- C202 2
- U201 2
- U202 8
- U202 16
- U202 15
- U202 17
- C207 2
- C208 2
- C205 2
- C206 2
- C209 2
- U503 6
- U503 41
- U404 12
- U401 C1
- U405 2
- U404 21
- U503 46
- U702 P14
- U702 B7
- U702 G8
- U702 T16
- U702 N13
- U702 M8
- U701 5
- U702 G15
- U702 R10
- U702 R6
- U702 L15
- U702 H12
- U702 D4
- U702 H7
- U702 K7
- U702 A16
- U702 E9
- U702 H9
- U702 J5
- U702 B11
- C721 2
- C719 2
- U702 D13
- C720 2
- U702 K9
- U702 T1
- U702 G2
- U702 L2
- U702 P3
- U702 J8
- U702 A1
-Net 4 "" ""
- U702 C14
- U701 4
-Net 5 "1.2V" "1.2V"
- U702 K8
- C209 1
- U702 K10
- U702 H10
- U702 G7
- U702 J7
- U702 J9
- L204 2
- U702 G9
- U702 H8
-Net 6 "" ""
- U701 2
- U702 C12
-Net 7 "" ""
- U702 E14
- U701 3
-Net 8 "3.3V" "3.3V"
- C206 1
- L202 2
- U503 43
- U503 14
- U702 N15
- U702 N7
- U702 G13
- U702 D2
- U702 J10
- U702 G4
- U702 L9
- U702 N2
- U702 R4
- U702 F8
- U702 J15
- U701 6
- U702 K4
- U702 H6
- U702 E5
- U702 F11
- U702 K13
- U702 R8
- U702 R13
- U702 G10
- U702 J2
- U702 D15
- U702 N10
- U702 L6
- U503 27
- U503 49
- U503 9
- U503 1
- U503 3
-Net 33 "BANK0_38" "BANK0_38"
- U702 A11
- U501 18
-Net 34 "BANK0_40" "BANK0_40"
- U501 20
- U702 D12
-Net 35 "BANK0_39" "BANK0_39"
- U702 D11
- U501 19
-Net 36 "BANK0_36" "BANK0_36"
- U702 F10
- U501 16
-Net 37 "BANK0_31" "BANK0_31"
- U702 D9
- U501 11
-Net 38 "BANK0_37" "BANK0_37"
- U501 17
- U702 C11
-Net 39 "BANK0_35" "BANK0_35"
- U501 15
- U702 E11
-Net 40 "BANK0_34" "BANK0_34"
- U702 E10
- U501 14
-Net 41 "BANK0_33" "BANK0_33"
- U702 C10
- U501 13
-Net 42 "BANK0_32" "BANK0_32"
- U702 F9
- U501 12
-Net 43 "BANK0_21" "BANK0_21"
- U702 D5
- U501 1
-Net 44 "BANK0_25" "BANK0_25"
- U702 E6
- U501 5
-Net 45 "BANK0_29" "BANK0_29"
- U702 C8
- U501 9
-Net 46 "BANK0_22" "BANK0_22"
- U702 C5
- U501 2
-Net 47 "BANK0_26" "BANK0_26"
- U501 6
- U702 F7
-Net 48 "BANK0_30" "BANK0_30"
- U702 D8
- U501 10
-Net 49 "BANK0_23" "BANK0_23"
- U702 D6
- U501 3
-Net 50 "BANK0_24" "BANK0_24"
- U501 4
- U702 C6
-Net 51 "BANK0_27" "BANK0_27"
- U501 7
- U702 E8
-Net 52 "BANK0_28" "BANK0_28"
- U501 8
- U702 E7
-Net 53 "BANK0_10" "BANK0_10"
- U601 10
- U702 B8
-Net 54 "BANK0_12" "BANK0_12"
- U601 12
- U702 C9
-Net 55 "BANK0_14" "BANK0_14"
- U601 14
- U702 B10
-Net 56 "BANK0_16" "BANK0_16"
- U702 B12
- U601 16
-Net 57 "BANK0_18" "BANK0_18"
- U702 C13
- U601 18
-Net 58 "BANK0_20" "BANK0_20"
- U601 20
- U702 B14
-Net 59 "BANK0_4" "BANK0_4"
- U601 4
- U702 B5
-Net 60 "BANK0_19" "BANK0_19"
- U601 19
- U702 A14
-Net 61 "BANK0_17" "BANK0_17"
- U601 17
- U702 A13
-Net 62 "BANK0_15" "BANK0_15"
- U601 15
- U702 A12
-Net 63 "BANK0_13" "BANK0_13"
- U601 13
- U702 A10
-Net 64 "BANK0_11" "BANK0_11"
- U601 11
- U702 A9
-Net 65 "BANK0_8" "BANK0_8"
- U601 8
- U702 C7
-Net 66 "BANK0_7" "BANK0_7"
- U601 7
- U702 A7
-Net 67 "BANK0_3" "BANK0_3"
- U601 3
- U702 A5
-Net 68 "BANK0_1" "BANK0_1"
- U601 1
- U702 A4
-Net 69 "BANK0_5" "BANK0_5"
- U702 A6
- U601 5
-Net 70 "BANK0_9" "BANK0_9"
- U702 A8
- U601 9
-Net 71 "BANK0_2" "BANK0_2"
- U702 C4
- U601 2
-Net 72 "BANK0_6" "BANK0_6"
- U702 B6
- U601 6
-Net 74 "SDRAM_BANK_SELECT0" "SDRAM_BANK_SELECT0"
- U503 20
- U702 G14
-Net 75 "ROW_ADDRESS_STROBE" "ROW_ADDRESS_STROBE"
- U503 18
- U702 J13
-Net 76 "COLUMN_ADDRESS_STROBE" "COLUMN_ADDRESS_STROBE"
- U702 K14
- U503 17
-Net 77 "SDRAM_DATA08" "SDRAM_DATA08"
- U503 42
- U702 P15
-Net 78 "SDRAM_DATA15" "SDRAM_DATA15"
- U503 53
- U702 T12
-Net 79 "SDRAM_DATA13" "SDRAM_DATA13"
- U702 T13
- U503 50
-Net 80 "SDRAM_DATA12" "SDRAM_DATA12"
- U503 48
- U702 T14
-Net 81 "SDRAM_DATA11" "SDRAM_DATA11"
- U702 R16
- U503 47
-Net 82 "SDRAM_DATA10" "SDRAM_DATA10"
- U503 45
- U702 R15
-Net 83 "SDRAM_DATA09" "SDRAM_DATA09"
- U702 P16
- U503 44
-Net 84 "SDRAM_WRITE_EN" "SDRAM_WRITE_EN"
- U702 E15
- U503 16
-Net 85 "SDRAM_UPPER_DATA_MASK" "SDRAM_UPPER_DATA_MASK"
- U503 39
- U702 K12
-Net 86 "SDRAM_CLK" "SDRAM_CLK"
- U702 G12
- U503 38
-Net 87 "SDRAM_DATA05" "SDRAM_DATA05"
- U503 10
- U702 J16
-Net 88 "SDRAM_DATA03" "SDRAM_DATA03"
- U503 7
- U702 M16
-Net 89 "SDRAM_DATA01" "SDRAM_DATA01"
- U503 4
- U702 L16
-Net 90 "SDRAM_A11" "SDRAM_A11"
- U702 G11
- U503 35
-Net 91 "SDRAM_A10" "SDRAM_A10"
- U503 22
- U702 C15
-Net 92 "SDRAM_A08" "SDRAM_A08"
- U503 33
- U702 F13
-Net 93 "SDRAM_A07" "SDRAM_A07"
- U503 32
- U702 F15
-Net 94 "SDRAM_A06" "SDRAM_A06"
- U702 J12
- U503 31
-Net 95 "SDRAM_A05" "SDRAM_A05"
- U503 30
- U702 J11
-Net 96 "SDRAM_DATA07" "SDRAM_DATA07"
- U503 13
- U702 K16
-Net 97 "DOUT_BUSY" "DOUT_BUSY"
- U702 M14
- U404 7
-Net 98 "SDRAM_A00" "SDRAM_A00"
- U503 23
- U702 H15
-Net 99 "SDRAM_A03" "SDRAM_A03"
- U702 H13
- U503 26
-Net 104 "SDRAM_DATA14" "SDRAM_DATA14"
- U702 R12
- U503 51
-Net 105 "SDRAM_A09" "SDRAM_A09"
- U702 F14
- U503 34
-Net 115 "SDRAM_LOWER_DATA_MASK" "SDRAM_LOWER_DATA_MASK"
- U503 15
- U702 K11
-Net 116 "SDRAM_CHIP_SELECT" "SDRAM_CHIP_SELECT"
- U503 19
- U702 L12
-Net 118 "SDRAM_BANK_SELECT1" "SDRAM_BANK_SELECT1"
- U503 21
- U702 G16
-Net 120 "SDRAM_A04" "SDRAM_A04"
- U503 29
- U702 C16
-Net 121 "SDRAM_A12" "SDRAM_A12"
- U702 D16
- U503 36
-Net 122 "SDRAM_DATA00" "SDRAM_DATA00"
- U503 2
- U702 L14
-Net 123 "SDRAM_DATA02" "SDRAM_DATA02"
- U503 5
- U702 M15
-Net 124 "SDRAM_DATA04" "SDRAM_DATA04"
- U503 8
- U702 J14
-Net 125 "SDRAM_DATA06" "SDRAM_DATA06"
- U702 K15
- U503 11
-Net 126 "SDRAM_A02" "SDRAM_A02"
- U702 F16
- U503 25
-Net 127 "SDRAM_A01" "SDRAM_A01"
- U702 H16
- U503 24
-Net 135 "/FPGA_Bank_2/SPI0_CLK" "SPI0_CLK"
- U702 R11
- U401 C22
-Net 136 "GPMC_AD6" "GPMC_AD6"
- U702 R2
- U401 B3
-Net 137 "GPMC_AD2" "GPMC_AD2"
- U401 B5
- U702 P2
-Net 139 "GPMC_ADVN_ALE" "GPMC_ADVN_ALE"
- U702 N1
- U401 B7
-Net 140 "GPMC_AD13" "GPMC_AD13"
- U702 K2
- U401 B11
-Net 142 "GPMC_AD15" "GPMC_AD15"
- U401 B15
- U702 H1
-Net 143 "GPMC_AD8" "GPMC_AD8"
- U401 B19
- U702 E2
-Net 144 "GPMC_CSN1" "GPMC_CSN1"
- U401 B21
- U702 D3
-Net 146 "GPMC_AD4" "GPMC_AD4"
- U401 B23
- U702 C2
-Net 147 "GPMC_AD7" "GPMC_AD7"
- U702 R1
- U401 B4
-Net 149 "GPMC_OEN" "GPMC_OEN"
- U702 M2
- U401 B8
-Net 151 "GPMC_AD12" "GPMC_AD12"
- U702 K1
- U401 B12
-Net 152 "GPMC_AD10" "GPMC_AD10"
- U702 H2
- U401 B14
-Net 154 "GPMC_AD14" "GPMC_AD14"
- U702 G1
- U401 B16
-Net 155 "GPMC_BEON_CLE" "GPMC_BEON_CLE"
- U702 M1
- U401 B9
-Net 158 "/FPGA_Bank_2/I2C2_SDA" "I2C2_SDA"
- U404 23
- U401 C20
- R407 2
-Net 160 "GPMC_CSN2" "GPMC_CSN2"
- U401 B20
- U702 E1
-Net 165 "GPMC_AD1" "GPMC_AD1"
- U401 B24
- U702 C1
-Net 166 "/FPGA_Bank_2/SPI0_D0" "SPI0_D0"
- U702 P10
- U401 C21
-Net 168 "/FPGA_Bank_2/GPMC_BE1N" "GPMC_BE1N"
- U401 C12
- U702 P12
-Net 170 "GPMC_AD9" "GPMC_AD9"
- U401 B13
- U702 J1
-Net 173 "GPMC_AD11" "GPMC_AD11"
- U702 F2
- U401 B17
-Net 175 "GPMC_AD0" "GPMC_AD0"
- U702 B2
- U401 B25
-Net 177 "GPMC_AD3" "GPMC_AD3"
- U401 B6
- U702 P1
-Net 178 "" ""
- U404 17
- U702 T5
-Net 179 "GPMC_WEN" "GPMC_WEN"
- U401 B10
- U702 L1
-Net 181 "" ""
- U702 T2
- U404 14
-Net 182 "" ""
- U404 11
- U702 T11
-Net 184 "GPMC_CLK" "GPMC_CLK"
- U702 F1
- U401 B18
-Net 186 "GPMC_AD5" "GPMC_AD5"
- U401 B22
- U702 D1
-Net 187 "GPMC_CSN0" "GPMC_CSN0"
- U702 B1
- U401 B26
-Net 192 "" ""
- U702 T3
- U405 3
-Net 198 "" ""
- R404 2
- U404 3
-Net 205 "BONE_3.3V" "BONE_3.3V"
- R407 1
- R406 1
- R405 1
- R404 1
- C401 1
- U404 24
- U405 4
- U401 C3
- U404 2
- R403 1
- R401 1
- R402 1
-Net 206 "/FPGA_Bank_2/100MHZ_En" "100MHZ_En"
- U405 1
- U404 13
-Net 213 "/FPGA_Bank_2/I2C_SCL" "I2C_SCL"
- R406 2
- U404 22
- U401 C19
-Net 217 "" ""
- R403 2
- U702 T10
- U404 10
-Net 220 "" ""
- R402 2
- U702 N11
- U404 9
-Net 229 "" ""
- U702 P13
- U404 8
- R401 2
-Net 231 "" ""
- U702 R3
- U404 15
-Net 232 "/FPGA_Bank_2/IRQ#" "IRQ#"
- R405 2
- U404 1
- U401 C15
-Net 293 "" ""
- U202 9
- C202 1
-Net 294 "+5V_supply" "+5V_supply"
- U202 12
- U202 11
- U202 10
- U202 13
- U201 1
- C201 1
- U203 13
- U203 12
- U203 10
- U203 11
- C203 1
- U204 10
- U204 11
- U204 12
- U204 13
- C207 1
-Net 295 "" ""
- U202 4
- R201 1
-Net 296 "" ""
- L201 2
- U202 1
- U202 2
- U202 3
-Net 297 "" ""
- L201 1
- R201 2
- C205 1
- U202 14
- L202 1
-Net 298 "" ""
- U203 9
- C204 1
-Net 299 "" ""
- R204 1
- U203 5
- R203 2
-Net 300 "" ""
- L203 1
- R202 2
- U203 14
- L204 1
- R203 1
-Net 301 "" ""
- U203 4
- R202 1
-Net 302 "" ""
- U203 1
- U203 3
- L203 2
- U203 2
-Net 303 "" ""
- R207 1
- R206 2
- U204 5
-Net 304 "" ""
- C208 1
- U204 9
-Net 305 "" ""
- L205 2
- U204 3
- U204 2
- U204 1
-Net 306 "" ""
- U204 4
- R205 1
-}
-#End

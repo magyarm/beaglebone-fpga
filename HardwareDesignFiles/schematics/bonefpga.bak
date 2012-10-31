@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon Oct 22 16:50:57 2012
+EESchema Schematic File Version 2  date Tue Oct 30 21:07:42 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 7
 Title "Beaglebone-FPGA"
-Date "22 oct 2012"
+Date "31 oct 2012"
 Rev "1"
 Comp ""
 Comment1 ""

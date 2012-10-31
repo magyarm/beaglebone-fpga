@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon Oct 22 17:29:16 2012
+EESchema Schematic File Version 2  date Tue Oct 30 21:08:17 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 7
 Title "FPGA Configuration, IOE, Global CLK, GPMC/I2C/SPI Connections"
-Date "22 oct 2012"
+Date "31 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,56 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 7400 1800
+Wire Wire Line
+	4350 5400 4250 5400
+Wire Wire Line
+	7400 5600 7450 5600
+Wire Wire Line
+	8500 5100 8600 5100
+Wire Wire Line
+	8600 5000 7900 5000
+Wire Wire Line
+	7900 5000 7900 4950
+Wire Wire Line
+	7900 4950 7900 4500
+Connection ~ 8500 4900
+Wire Wire Line
+	8500 4900 8500 4950
+Wire Wire Line
+	8500 4950 8100 4950
+Wire Wire Line
+	8100 4950 8100 4500
+Wire Wire Line
+	4200 4700 4350 4700
+Wire Wire Line
+	8500 4800 8600 4800
+Wire Wire Line
+	7400 5200 7600 5200
+Wire Wire Line
+	8550 4600 8600 4600
+Connection ~ 4700 6750
+Wire Wire Line
+	4700 6500 4700 6750
+Connection ~ 4950 6650
+Wire Wire Line
+	4950 6500 4950 6650
+Wire Wire Line
+	5250 6750 5200 6750
+Wire Wire Line
+	5200 6750 5200 6500
+Wire Wire Line
+	4550 6650 4950 6650
+Wire Wire Line
+	4950 6650 5250 6650
+Wire Wire Line
+	4100 6750 3850 6750
+Wire Wire Line
+	6200 6750 6250 6750
+Wire Wire Line
+	6250 6550 6200 6550
+Wire Wire Line
+	4200 1700 4350 1700
 Wire Wire Line
 	7400 2000 7500 2000
 Wire Notes Line
@@ -56,26 +106,12 @@ Wire Notes Line
 Wire Notes Line
 	9150 4500 6900 4500
 Wire Wire Line
-	7400 5600 8600 5600
-Wire Wire Line
 	8600 5400 8500 5400
-Wire Wire Line
-	4350 4700 3800 4700
-Wire Wire Line
-	3800 4700 3800 5900
-Wire Wire Line
-	3800 5900 7900 5900
-Wire Wire Line
-	7900 5900 7900 5200
-Wire Wire Line
-	7900 5200 8600 5200
 Connection ~ 7900 4950
 Wire Wire Line
 	7900 4950 7350 4950
 Wire Wire Line
 	7350 4950 7350 5000
-Wire Wire Line
-	8550 4900 8600 4900
 Wire Wire Line
 	4200 1900 4350 1900
 Wire Wire Line
@@ -85,10 +121,18 @@ Wire Wire Line
 Wire Wire Line
 	8500 4200 8950 4200
 Wire Wire Line
-	10300 4550 10300 3500
+	10300 4550 10300 4500
+Wire Wire Line
+	10300 4500 10300 4050
+Wire Wire Line
+	10300 4050 10300 3800
+Wire Wire Line
+	10300 3800 10300 3500
 Connection ~ 10150 4700
 Wire Wire Line
-	10150 4500 10150 4700
+	10150 4500 10150 4600
+Wire Wire Line
+	10150 4600 10150 4700
 Wire Wire Line
 	1500 4550 1850 4550
 Wire Wire Line
@@ -100,37 +144,37 @@ Wire Wire Line
 Connection ~ 8100 4050
 Wire Wire Line
 	7900 4100 7900 4050
-Connection ~ 7600 5000
-Wire Wire Line
-	7600 4500 7600 5000
-Connection ~ 8100 5200
-Wire Wire Line
-	8100 5200 8100 4500
 Connection ~ 10500 5300
 Wire Wire Line
 	10500 4950 10500 5300
 Connection ~ 10500 4500
 Wire Wire Line
-	10150 4500 10700 4500
+	10150 4500 10300 4500
+Wire Wire Line
+	10300 4500 10500 4500
+Wire Wire Line
+	10500 4500 10700 4500
 Wire Wire Line
 	10700 4500 10700 4550
 Connection ~ 10150 4500
 Wire Wire Line
-	10800 5500 10050 5500
+	10050 5500 10300 5500
 Wire Wire Line
-	10050 5300 10800 5300
+	10300 5500 10800 5500
+Wire Wire Line
+	10800 5300 10500 5300
+Wire Wire Line
+	10500 5300 10050 5300
 Connection ~ 10100 6100
 Wire Wire Line
-	10100 6150 10100 6000
+	10100 6150 10100 6100
+Wire Wire Line
+	10100 6100 10100 6000
 Wire Wire Line
 	10100 6000 10050 6000
 Connection ~ 10150 4600
 Wire Wire Line
 	10150 4700 10050 4700
-Wire Wire Line
-	7400 5200 7400 5000
-Wire Wire Line
-	7400 5000 8600 5000
 Wire Wire Line
 	10250 1550 10200 1550
 Wire Wire Line
@@ -192,7 +236,9 @@ Wire Wire Line
 Wire Wire Line
 	10050 6100 10100 6100
 Wire Wire Line
-	10800 5150 10050 5150
+	10050 5150 10700 5150
+Wire Wire Line
+	10700 5150 10800 5150
 Wire Wire Line
 	10200 1350 10250 1350
 Wire Wire Line
@@ -210,7 +256,11 @@ Connection ~ 10300 4050
 Wire Wire Line
 	7600 4100 7600 4050
 Wire Wire Line
-	7600 4050 10300 4050
+	7600 4050 7900 4050
+Wire Wire Line
+	7900 4050 8100 4050
+Wire Wire Line
+	8100 4050 10300 4050
 Connection ~ 7900 4050
 Wire Wire Line
 	1500 5150 1850 5150
@@ -219,7 +269,9 @@ Wire Wire Line
 Wire Wire Line
 	1500 4650 1850 4650
 Wire Wire Line
-	10300 3500 9650 3500
+	10300 3500 9800 3500
+Wire Wire Line
+	9800 3500 9650 3500
 Wire Wire Line
 	9650 3800 9700 3800
 Wire Wire Line
@@ -241,39 +293,177 @@ Wire Wire Line
 Wire Wire Line
 	4350 5600 4250 5600
 Wire Wire Line
-	8500 3500 8500 3400
-Wire Wire Line
-	8500 3400 7400 3400
-Wire Wire Line
-	7900 4500 7900 5100
-Wire Wire Line
-	7900 5100 8600 5100
-Wire Wire Line
-	7400 4800 7550 4800
-Wire Wire Line
-	7550 4800 7550 5300
-Wire Wire Line
-	7550 5300 8600 5300
-Wire Wire Line
 	7400 5400 7850 5400
 Wire Wire Line
-	7850 5400 7850 5500
+	8900 1350 8850 1350
 Wire Wire Line
-	7850 5500 8600 5500
+	7400 3000 7500 3000
 Wire Wire Line
-	7400 4600 7800 4600
+	5250 6850 5200 6850
 Wire Wire Line
-	7800 4600 7800 5800
+	5200 6850 5200 6900
 Wire Wire Line
-	7800 5800 8600 5800
+	6200 6850 6250 6850
 Wire Wire Line
-	7400 1800 7500 1800
-Text Label 7500 1800 0    60   ~ 0
+	4100 6650 3850 6650
+Wire Wire Line
+	3850 6650 3850 6750
+Wire Wire Line
+	3850 6750 3850 6850
+Connection ~ 3850 6750
+Wire Wire Line
+	4550 6750 4700 6750
+Wire Wire Line
+	4700 6750 4800 6750
+Wire Wire Line
+	4800 6750 4800 6550
+Wire Wire Line
+	4800 6550 5250 6550
+Wire Wire Line
+	6200 6550 6200 6000
+Connection ~ 5200 6000
+Wire Wire Line
+	6200 6000 5200 6000
+Wire Wire Line
+	5200 6000 4950 6000
+Wire Wire Line
+	4950 6000 4700 6000
+Connection ~ 4950 6000
+Wire Wire Line
+	7400 3800 8000 3800
+Wire Wire Line
+	8000 3800 8000 3500
+Wire Wire Line
+	8000 3500 8500 3500
+Wire Wire Line
+	8500 4700 8600 4700
+Wire Wire Line
+	7600 5200 7600 4500
+Wire Wire Line
+	7400 4800 7450 4800
+Wire Wire Line
+	8400 4900 8500 4900
+Wire Wire Line
+	8500 4900 8600 4900
+Wire Wire Line
+	7450 4600 7400 4600
+Wire Wire Line
+	8500 5200 8600 5200
+Wire Wire Line
+	7850 5400 7850 5300
+Wire Wire Line
+	7850 5300 8600 5300
+NoConn ~ 8600 5800
+NoConn ~ 8600 5600
+NoConn ~ 8600 5500
+Text Label 7450 5600 0    60   ~ 0
+INIT_B
+Text Label 8500 5200 2    60   ~ 0
+INIT_B
+Text Label 7450 4600 0    60   ~ 0
+RDWR_B
+Text Label 8500 5100 2    60   ~ 0
+RDWR_B
+Text Label 4200 4700 2    60   ~ 0
+CSI_B
+Text Label 8400 4900 2    60   ~ 0
+CSI_B
+Text Label 7450 4800 0    60   ~ 0
+CMPMISO
+Text Label 8500 4800 2    60   ~ 0
+CMPMISO
+Text Label 8500 4700 2    60   ~ 0
+DONE
+Text Label 8000 3500 0    60   ~ 0
+GCLK
+NoConn ~ 7400 3400
+Text Label 7400 4950 0    60   ~ 0
+M1
+Text Label 7400 5400 0    60   ~ 0
+PROGRAM_B
+Text Label 7600 5200 0    60   ~ 0
+DONE
+$Comp
+L 10K R410
+U 1 1 50883F91
+P 5000 6500
+F 0 "R410" H 4650 6950 60  0000 C CNN
+F 1 "10K" H 4700 6750 60  0000 C CNN
+	1    5000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K R408
+U 1 1 50883F8C
+P 5500 6500
+F 0 "R408" H 5150 6950 60  0000 C CNN
+F 1 "10K" H 5200 6750 60  0000 C CNN
+	1    5500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K R409
+U 1 1 50883F85
+P 5250 6500
+F 0 "R409" H 4900 6950 60  0000 C CNN
+F 1 "10K" H 4950 6750 60  0000 C CNN
+	1    5250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 50883F12
+P 3850 6850
+F 0 "#PWR05" H 3850 6850 30  0001 C CNN
+F 1 "GND" H 3850 6780 30  0001 C CNN
+	1    3850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L EEPROM_SWITCH U406
+U 1 1 50883EF7
+P 4350 7250
+F 0 "U406" H 4250 8000 60  0000 C CNN
+F 1 "EEPROM_SWITCH" H 4350 7600 60  0000 C CNN
+	1    4350 7250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6200 6650
+Text Label 6250 6750 0    60   ~ 0
+I2C_SCL
+Text Label 6250 6850 0    60   ~ 0
+I2C2_SDA
+$Comp
+L GND #PWR06
+U 1 1 50883E8B
+P 5200 6900
+F 0 "#PWR06" H 5200 6900 30  0001 C CNN
+F 1 "GND" H 5200 6830 30  0001 C CNN
+	1    5200 6900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 6550 2    60   Output ~ 0
+BONE_3.3V
+$Comp
+L CAT24C256 U407
+U 1 1 50883E65
+P 5700 7100
+F 0 "U407" H 5600 7750 60  0000 C CNN
+F 1 "CAT24C256" H 5700 7250 60  0000 C CNN
+	1    5700 7100
+	1    0    0    -1  
+$EndComp
+Text Label 7500 3000 0    60   ~ 0
+SPI0_CS0
+Text Label 4200 1700 2    60   ~ 0
+SPI0_D1
+Text GLabel 8850 1350 0    60   Input ~ 0
+BONE_INTERRUPT
+Text Label 4250 5400 2    60   ~ 0
 I2C_SCL
 Text Label 7500 2000 0    60   ~ 0
 I2C2_SDA
 NoConn ~ 10250 2650
-NoConn ~ 4350 5400
 NoConn ~ 4350 5200
 NoConn ~ 4350 5000
 NoConn ~ 4350 4500
@@ -289,11 +479,8 @@ NoConn ~ 4350 2700
 NoConn ~ 4350 2500
 NoConn ~ 4350 2300
 NoConn ~ 4350 2100
-NoConn ~ 4350 1700
-NoConn ~ 7400 3800
 NoConn ~ 7400 3600
 NoConn ~ 7400 3200
-NoConn ~ 7400 3000
 NoConn ~ 7400 2800
 NoConn ~ 7400 2600
 NoConn ~ 7400 2400
@@ -369,7 +556,6 @@ NoConn ~ 8900 2050
 NoConn ~ 8900 1950
 NoConn ~ 8900 1850
 NoConn ~ 8900 1750
-NoConn ~ 8900 1350
 NoConn ~ 8900 1250
 NoConn ~ 8900 1050
 NoConn ~ 8900 950 
@@ -414,7 +600,7 @@ NoConn ~ 2000 3000
 NoConn ~ 2000 2900
 NoConn ~ 2000 2800
 NoConn ~ 2000 2700
-Text GLabel 8550 4900 0    60   Input ~ 0
+Text GLabel 8550 4600 0    60   Input ~ 0
 DOUT_BUSY
 $Comp
 L 0.1UF C401
@@ -441,10 +627,10 @@ Text Label 8500 5400 2    60   ~ 0
 Text Label 9700 3800 0    60   ~ 0
 100MHZ_En
 $Comp
-L GND #PWR05
+L GND #PWR07
 U 1 1 5004FAC1
 P 8400 3800
-F 0 "#PWR05" H 8400 3800 30  0001 C CNN
+F 0 "#PWR07" H 8400 3800 30  0001 C CNN
 F 1 "GND" H 8400 3730 30  0001 C CNN
 	1    8400 3800
 	0    1    -1   0   
@@ -521,10 +707,10 @@ I2C_SCL
 Text Label 10800 5150 0    60   ~ 0
 I2C2_SDA
 $Comp
-L GND #PWR06
+L GND #PWR08
 U 1 1 5004EE4A
 P 10100 6150
-F 0 "#PWR06" H 10100 6150 30  0001 C CNN
+F 0 "#PWR08" H 10100 6150 30  0001 C CNN
 F 1 "GND" H 10100 6080 30  0001 C CNN
 	1    10100 6150
 	-1   0    0    -1  
@@ -538,19 +724,19 @@ I2C2_SDA
 Text Label 8850 1450 2    60   ~ 0
 SPI0_D1
 $Comp
-L GND #PWR07
+L GND #PWR09
 U 1 1 5004E51C
 P 10200 650
-F 0 "#PWR07" H 10200 650 30  0001 C CNN
+F 0 "#PWR09" H 10200 650 30  0001 C CNN
 F 1 "GND" H 10200 580 30  0001 C CNN
 	1    10200 650 
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR010
 U 1 1 5004E50D
 P 8850 650
-F 0 "#PWR08" H 8850 650 30  0001 C CNN
+F 0 "#PWR010" H 8850 650 30  0001 C CNN
 F 1 "GND" H 8850 580 30  0001 C CNN
 	1    8850 650 
 	0    1    -1   0   
@@ -591,19 +777,19 @@ $EndComp
 Text Label 8850 1150 2    60   ~ 0
 GPMC_BE1N
 $Comp
-L GND #PWR09
+L GND #PWR011
 U 1 1 4FFE26A1
 P 1650 4250
-F 0 "#PWR09" H 1650 4250 30  0001 C CNN
+F 0 "#PWR011" H 1650 4250 30  0001 C CNN
 F 1 "GND" H 1650 4180 30  0001 C CNN
 	1    1650 4250
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR010
+L GND #PWR012
 U 1 1 4FFE2696
 P 1850 1400
-F 0 "#PWR010" H 1850 1400 30  0001 C CNN
+F 0 "#PWR012" H 1850 1400 30  0001 C CNN
 F 1 "GND" H 1850 1330 30  0001 C CNN
 	1    1850 1400
 	0    1    -1   0   
@@ -630,7 +816,7 @@ $Comp
 L XC6SLX25FTG256 U702
 U 4 1 4FE55204
 P 11300 4900
-F 0 "U702" H 4800 8600 60  0000 C CNN
+F 0 "U702" H 11350 4950 60  0000 C CNN
 F 1 "XC6SLX25FTG256" H 5000 4000 60  0000 C CNN
 	4    11300 4900
 	1    0    0    -1  

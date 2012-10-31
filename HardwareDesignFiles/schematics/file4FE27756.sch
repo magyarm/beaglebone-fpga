@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon Oct 22 17:29:16 2012
+EESchema Schematic File Version 2  date Tue Oct 30 21:08:17 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 7
 Title "FPGA Bank 3"
-Date "22 oct 2012"
+Date "31 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -175,7 +175,7 @@ $Comp
 L XC6SLX25FTG256 U702
 U 5 1 4FE55256
 P 10950 5200
-F 0 "U702" H 4450 8900 60  0000 C CNN
+F 0 "U702" H 11000 5250 60  0000 C CNN
 F 1 "XC6SLX25FTG256" H 4650 4300 60  0000 C CNN
 	5    10950 5200
 	1    0    0    -1  
