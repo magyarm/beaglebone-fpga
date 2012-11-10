@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mon Oct 29 20:22:12 2012
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat Nov 10 15:37:45 2012
 
 BeginCmp
 TimeStamp = /4FE6399D/50831268;
@@ -323,6 +323,20 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
+TimeStamp = /4FE27749/509EAF70;
+Reference = R308;
+ValeurCmp = 100_OHM;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE27749/509EAF95;
+Reference = R310;
+ValeurCmp = 100_OHM;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
 TimeStamp = /4FE27749/5004F31B;
 Reference = R401;
 ValeurCmp = 330_OHM;
@@ -418,6 +432,27 @@ TimeStamp = /4FE6399D/50832172;
 Reference = U204;
 ValeurCmp = TPS62130;
 IdModule  = QFN-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE6399D/509EB623;
+Reference = U205;
+ValeurCmp = JTAG_CONN;
+IdModule  = JTAG_6_Header;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE27749/509EB58C;
+Reference = U303;
+ValeurCmp = BLUE_LED;
+IdModule  = blue_led;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE27749/509EB574;
+Reference = U305;
+ValeurCmp = BLUE_LED;
+IdModule  = blue_led;
 EndCmp
 
 BeginCmp

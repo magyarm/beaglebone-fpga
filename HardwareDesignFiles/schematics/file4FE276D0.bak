@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue Oct 30 21:07:42 2012
+EESchema Schematic File Version 2  date Sat Nov 10 15:17:33 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 7
 Title "FPGA Bank 0"
-Date "31 oct 2012"
+Date "10 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -217,25 +217,25 @@ Text GLabel 7300 4300 2    60   Input ~ 0
 BANK0_36
 Text GLabel 7300 4500 2    60   Input ~ 0
 BANK0_35
-Text GLabel 7300 1900 2    60   Input ~ 0
-BANK0_34
 Text GLabel 7300 2100 2    60   Input ~ 0
+BANK0_34
+Text GLabel 7300 1900 2    60   Input ~ 0
 BANK0_33
-Text GLabel 7300 3100 2    60   Input ~ 0
-BANK0_32
 Text GLabel 7300 3300 2    60   Input ~ 0
+BANK0_32
+Text GLabel 7300 3100 2    60   Input ~ 0
 BANK0_31
-Text GLabel 7300 2300 2    60   Input ~ 0
-BANK0_30
 Text GLabel 7300 2500 2    60   Input ~ 0
+BANK0_30
+Text GLabel 7300 2300 2    60   Input ~ 0
 BANK0_29
 Text GLabel 7300 1500 2    60   Input ~ 0
 BANK0_28
 Text GLabel 7300 1700 2    60   Input ~ 0
 BANK0_27
-Text GLabel 4000 3100 0    60   Input ~ 0
-BANK0_26
 Text GLabel 4000 3300 0    60   Input ~ 0
+BANK0_26
+Text GLabel 4000 3100 0    60   Input ~ 0
 BANK0_25
 Text GLabel 4000 4100 0    60   Input ~ 0
 BANK0_24

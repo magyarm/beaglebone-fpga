@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue Oct 30 21:08:17 2012
+EESchema Schematic File Version 2  date Sat Nov 10 15:24:47 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 7 7
 Title "FPGA Power, Ground, and JTAG"
-Date "31 oct 2012"
+Date "10 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,9 +46,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2950 1650 3500 1650
+	2950 2100 3350 2100
 Wire Wire Line
-	3500 1650 3500 1700
+	3350 2100 3350 1700
+Wire Wire Line
+	3350 1700 4000 1700
 Wire Wire Line
 	3950 1600 4000 1600
 Connection ~ 9300 5100
@@ -94,18 +96,10 @@ Wire Wire Line
 Wire Wire Line
 	9300 1750 9300 1850
 Wire Wire Line
-	3500 1700 4000 1700
-Wire Wire Line
 	4000 1500 2950 1500
 Connection ~ 7300 1500
 Wire Wire Line
 	7300 1500 7300 1050
-Wire Wire Line
-	7300 1050 3400 1050
-Wire Wire Line
-	3400 1050 3400 2250
-Wire Wire Line
-	3400 2250 2950 2250
 Connection ~ 7150 4200
 Wire Wire Line
 	7050 4300 7150 4300
@@ -288,18 +282,10 @@ Wire Wire Line
 	7150 4400 7150 3900
 Connection ~ 7150 4300
 Wire Wire Line
-	2950 2100 3200 2100
-Wire Wire Line
-	3200 2100 3200 3000
-Wire Wire Line
-	3200 3000 4000 3000
+	4000 3000 3200 3000
 Connection ~ 3900 3000
 Wire Wire Line
-	2950 1950 3550 1950
-Wire Wire Line
-	3550 1950 3550 1800
-Wire Wire Line
-	3550 1800 4000 1800
+	4000 1800 3550 1800
 Wire Wire Line
 	10100 1750 10100 1850
 Wire Wire Line
@@ -343,8 +329,28 @@ Wire Wire Line
 	7050 5100 10550 5100
 Connection ~ 10100 5100
 Wire Wire Line
-	3050 1800 2950 1800
-Text Label 3050 1800 0    60   ~ 0
+	2950 1800 3200 1800
+Wire Wire Line
+	3200 1800 3200 3000
+Wire Wire Line
+	2950 1650 3200 1650
+Wire Wire Line
+	3200 1650 3200 1050
+Wire Wire Line
+	3200 1050 7300 1050
+Wire Wire Line
+	3550 1800 3550 2250
+Wire Wire Line
+	3550 2250 2950 2250
+Wire Wire Line
+	3000 1950 2950 1950
+Text Label 3550 1800 0    60   ~ 0
+TDO
+Text Label 3350 1700 0    60   ~ 0
+TMS
+Text Label 3200 3000 0    60   ~ 0
+GND
+Text Label 3000 1950 0    60   ~ 0
 TDI
 Text Label 3950 1600 2    60   ~ 0
 TDI

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat Nov 10 15:24:47 2012
+EESchema Schematic File Version 2  date Sat Nov 10 15:43:32 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,16 +45,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 1400 5650
+Wire Wire Line
+	1350 5800 1400 5800
+Wire Wire Line
+	1400 5800 1400 5500
+Wire Wire Line
+	1650 5500 1350 5500
 Connection ~ 1500 5950
 Wire Wire Line
-	1500 6150 1500 5800
-Wire Wire Line
-	1500 5800 1350 5800
-Wire Wire Line
 	1500 6100 1350 6100
-Connection ~ 1400 5350
-Wire Wire Line
-	1450 5350 1350 5350
 Connection ~ 6350 7050
 Wire Wire Line
 	7150 5250 7150 6500
@@ -330,25 +330,25 @@ Wire Wire Line
 	7350 4750 7100 4750
 Connection ~ 7150 4750
 Wire Wire Line
-	1400 5500 1350 5500
-Wire Wire Line
-	1400 5350 1400 5650
-Wire Wire Line
 	1400 5650 1350 5650
 Connection ~ 1400 5500
 Wire Wire Line
 	1500 5950 1350 5950
 Connection ~ 1500 6100
+Wire Wire Line
+	1350 5350 1500 5350
+Wire Wire Line
+	1500 5350 1500 6150
 $Comp
-L GND #PWR202
+L GND #PWR01
 U 1 1 509EB644
 P 1500 6150
-F 0 "#PWR202" H 1500 6150 30  0001 C CNN
+F 0 "#PWR01" H 1500 6150 30  0001 C CNN
 F 1 "GND" H 1500 6080 30  0001 C CNN
 	1    1500 6150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 5350 2    50   Output ~ 0
+Text GLabel 1650 5500 2    50   Output ~ 0
 3.3V_Banks
 $Comp
 L JTAG_CONN U205
@@ -426,10 +426,10 @@ F 5 "08053A222JAT2A" H 2700 6350 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR204
+L GND #PWR02
 U 1 1 50832A56
 P 4200 7200
-F 0 "#PWR204" H 4200 7200 30  0001 C CNN
+F 0 "#PWR02" H 4200 7200 30  0001 C CNN
 F 1 "GND" H 4200 7130 30  0001 C CNN
 	1    4200 7200
 	1    0    0    -1  
@@ -516,10 +516,10 @@ F 5 "VLC6045T-2R2N" V 9750 2200 60  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR205
+L GND #PWR03
 U 1 1 508321A0
 P 8350 4350
-F 0 "#PWR205" H 8350 4350 30  0001 C CNN
+F 0 "#PWR03" H 8350 4350 30  0001 C CNN
 F 1 "GND" H 8350 4280 30  0001 C CNN
 	1    8350 4350
 	1    0    0    -1  
@@ -635,10 +635,10 @@ F 5 "LMK212BJ106KG-T" H 850 1300 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR203
+L GND #PWR04
 U 1 1 508311F6
 P 2800 3450
-F 0 "#PWR203" H 2800 3450 30  0001 C CNN
+F 0 "#PWR04" H 2800 3450 30  0001 C CNN
 F 1 "GND" H 2800 3380 30  0001 C CNN
 	1    2800 3450
 	1    0    0    -1  
@@ -653,10 +653,10 @@ F 1 "TPS62132" H 2150 100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR201
+L GND #PWR05
 U 1 1 504BC1A6
 P 1200 4100
-F 0 "#PWR201" H 1200 4100 30  0001 C CNN
+F 0 "#PWR05" H 1200 4100 30  0001 C CNN
 F 1 "GND" H 1200 4030 30  0001 C CNN
 	1    1200 4100
 	1    0    0    -1  
