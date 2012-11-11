@@ -3,6 +3,11 @@ beaglebone-fpga
 
 My attempt at making an FPGA add-on cape for the Beaglebone.
 
+2012/11/10
+
+The board is now been redesigned to use 4 layers, has external SDRAM, and completely new power supplies. It only took almost a month to finishing routing everything. It's right now off to the manufacturer for a new qoute, and to see if they spot any problems. With any luck prototypes will be in hand soon.
+
+
 2012/10/22
 
 Now that midterms are done, I'm back to development.They ate up all my time the last 3-4 weeks, but now I'm back to the world of the living. The big changes this time 'round are cmpletely changing the power supply from two dual rail Linear Technology LTC 3546 switching regulators to 3 Texas Instruments TPS6213x. Two reasons for this change. 1) is a ~14$ reduction in BOM cost. The Linear Tech chips were expensive. 2) Now with only 3 voltage rails, and no jumper to choose voltage for the IO Banks the routing and layout will be a lot simplier, and a lot less messy. This was a strong recommendation that I redo the stack up and internal layout by my manufacturer, so this is working towards that.
