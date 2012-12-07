@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat Nov 10 15:17:33 2012
+EESchema Schematic File Version 2  date Thu Nov 29 21:54:04 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 7
 Title "FPGA Bank 3"
-Date "10 nov 2012"
+Date "30 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat Nov 10 15:17:33 2012
+EESchema Schematic File Version 2  date Thu Nov 29 21:54:04 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 7
 Title "FPGA Bank 1"
-Date "10 nov 2012"
+Date "30 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -302,9 +302,9 @@ Text GLabel 1750 2350 0    60   Input ~ 0
 SDRAM_A05
 Text GLabel 1800 1950 0    60   Input ~ 0
 SDRAM_A03
-Text GLabel 1800 1750 0    60   Input ~ 0
-SDRAM_A02
 Text GLabel 1800 2550 0    60   Input ~ 0
+SDRAM_A02
+Text GLabel 1800 1750 0    60   Input ~ 0
 SDRAM_A01
 Text GLabel 1750 3350 0    60   Input ~ 0
 SDRAM_A00
@@ -402,10 +402,10 @@ SDRAM_DATA01
 Text GLabel 9300 1700 2    60   Input ~ 0
 SDRAM_DATA00
 $Comp
-L GND #PWR013
+L GND #PWR016
 U 1 1 50858CBE
 P 9400 6000
-F 0 "#PWR013" H 9400 6000 30  0001 C CNN
+F 0 "#PWR016" H 9400 6000 30  0001 C CNN
 F 1 "GND" H 9400 5930 30  0001 C CNN
 	1    9400 6000
 	1    0    0    -1  

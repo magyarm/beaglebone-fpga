@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat Nov 10 15:37:45 2012
+# EESchema Netlist Version 1.1 created  Thu Nov 29 21:56:25 2012
 (
  ( /4FE6399D/50831268 SM0603_Capa C201 10UF
   ( 1 +5V_supply )
@@ -636,7 +636,7 @@
   ( E10 BANK0_33 )
   ( E11 BANK0_35 )
   ( E12 SDRAM_A03 )
-  ( E13 SDRAM_A02 )
+  ( E13 SDRAM_A01 )
   ( E14 /FPGA_Power_Ground_MISC/TDO )
   ( E15 SDRAM_A11 )
   ( E16 SDRAM_A12 )
@@ -651,7 +651,7 @@
   ( F9 BANK0_31 )
   ( F10 BANK0_36 )
   ( F11 3.3V )
-  ( F12 SDRAM_A01 )
+  ( F12 SDRAM_A02 )
   ( F13 SDRAM_A00 )
   ( F14 SDRAM_CLKE )
   ( F15 SDRAM_CLK )

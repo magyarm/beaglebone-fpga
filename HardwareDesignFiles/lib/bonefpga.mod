@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Fri Nov  9 11:41:30 2012
+PCBNEW-LibModule-V1  Wed Nov 14 18:05:45 2012
 # encoding utf-8
 $INDEX
 3_Jumper
@@ -766,2068 +766,6 @@ Ne 2 "GND"
 Po -2000 0
 $EndPAD
 $EndMODULE  Oscillator
-$MODULE XC6SLX25FTG256
-Po 0 0 0 15 501B6FE6 00000000 ~~
-Li XC6SLX25FTG256
-Cd Spartan 6 FT256 footprint
-Sc 00000000
-AR XC6SLX25FTG256
-Op 0 0 0
-T0 0 -7087 350 350 0 88 N V 21 N "U"
-T1 1969 394 350 350 0 88 N V 21 N "XC6SLX25FTG256"
-DS 0 -6693 6693 -6693 201 21
-DS 6693 -6693 6693 0 201 21
-DS 6693 0 0 0 201 21
-DS 0 0 0 -6693 201 21
-$PAD
-Sh "A1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "A16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 394 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -4725
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -5905
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "B16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 787 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "C16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1181 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "D16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1575 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "E16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1969 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "F16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2362 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "G16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2756 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "H16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3150 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "J16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3543 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "K16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3937 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "L16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4331 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "M16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 4724 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "N16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5118 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "P16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5512 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "R16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5906 -6299
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T1" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -394
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T2" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -787
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T3" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -1181
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T4" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -1575
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T5" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -1969
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T6" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -2362
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T7" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -2756
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T8" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -3150
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T9" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -3543
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T10" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -3937
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T11" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -4331
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T12" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -4724
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T13" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -5118
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T14" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -5512
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T15" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -5906
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "T16" C 157 157 0 0 900
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6299 -6299
-.LocalClearance 39
-$EndPAD
-$EndMODULE  XC6SLX25FTG256
 $MODULE LTC3456
 Po 0 0 0 15 50204995 00000000 ~~
 Li LTC3456
@@ -4028,13 +1966,13 @@ Po -1000 -1007
 $EndPAD
 $EndMODULE  fpga_header_pth
 $MODULE DC_Barrel
-Po 0 0 0 15 509D3232 00000000 ~~
+Po 0 0 0 15 50A2C4B0 00000000 ~~
 Li DC_Barrel
 Sc 00000000
 AR /4FE6399D/500F569F
 Op 0 0 0
-T0 -4095 1087 600 600 0 120 N V 21 N "U201"
-T1 -1603 1150 206 206 0 52 N V 21 N "DC_BARREL"
+T0 -3406 2610 600 600 0 120 N V 21 N "U201"
+T1 -3390 2055 206 206 0 52 N V 21 N "DC_BARREL"
 DS -5394 1654 -3150 1654 150 21
 DS -5394 -1732 -3150 -1732 150 21
 DS -5394 1221 -5394 1654 150 21
@@ -4043,17 +1981,2079 @@ DS -5394 -1102 -5394 -1732 150 21
 DS -5393 -1181 -5393 1260 150 21
 $PAD
 Sh "1" R 394 1378 0 0 0
-Dr 0 0 0
+Dr 315 0 0 O 315 1339
 At STD N 00E0FFFF
 Ne 1 "+5V_supply"
 Po 0 0
 $EndPAD
 $PAD
 Sh "2" R 394 1181 0 0 0
-Dr 0 0 0
+Dr 315 0 0 O 315 1063
 At STD N 00E0FFFF
 Ne 2 "GND"
 Po -2362 0
 $EndPAD
 $EndMODULE  DC_Barrel
+$MODULE XC6SLX25FTG256
+Po 0 0 0 15 50A423C3 00000000 ~~
+Li XC6SLX25FTG256
+Cd Spartan 6 FT256 footprint
+Sc 00000000
+AR /4FE27757/4FE55256
+Op 0 0 0
+T0 0 -7087 350 350 0 88 N V 21 N "U702"
+T1 -634 -2449 350 350 900 88 N V 21 N "XC6SLX25FTG256"
+DS 0 -6693 6693 -6693 201 21
+DS 6693 -6693 6693 0 201 21
+DS 6693 0 0 0 201 21
+DS 0 0 0 -6693 201 21
+$PAD
+Sh "A1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 394 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 394 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "BANK0_1"
+Po 394 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 41 "BANK0_3"
+Po 394 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 54 "BANK0_5"
+Po 394 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 56 "BANK0_7"
+Po 394 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 58 "BANK0_9"
+Po 394 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 21 "BANK0_11"
+Po 394 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 23 "BANK0_13"
+Po 394 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 50 "BANK0_38"
+Po 394 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 25 "BANK0_15"
+Po 394 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 27 "BANK0_17"
+Po 394 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 29 "BANK0_19"
+Po 394 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 15 "/FPGA_Power_Ground_MISC/TMS"
+Po 394 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "A16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 394 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 83 "GPMC_CSN0"
+Po 787 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 63 "GPMC_AD0"
+Po 787 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 787 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 18 "3.3V_Banks"
+Po 787 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 52 "BANK0_4"
+Po 787 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 55 "BANK0_6"
+Po 787 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 787 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 20 "BANK0_10"
+Po 787 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 18 "3.3V_Banks"
+Po 787 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 24 "BANK0_14"
+Po 787 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 787 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 26 "BANK0_16"
+Po 787 -4725
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 18 "3.3V_Banks"
+Po 787 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 31 "BANK0_20"
+Po 787 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 96 "SDRAM_A04"
+Po 787 -5905
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "B16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 97 "SDRAM_A05"
+Po 787 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 64 "GPMC_AD1"
+Po 1181 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 73 "GPMC_AD4"
+Po 1181 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1181 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 30 "BANK0_2"
+Po 1181 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 33 "BANK0_22"
+Po 1181 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 35 "BANK0_24"
+Po 1181 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 57 "BANK0_8"
+Po 1181 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 42 "BANK0_30"
+Po 1181 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 22 "BANK0_12"
+Po 1181 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 46 "BANK0_34"
+Po 1181 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 49 "BANK0_37"
+Po 1181 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 13 "/FPGA_Power_Ground_MISC/TDI"
+Po 1181 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 28 "BANK0_18"
+Po 1181 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 88 "N-000008"
+Po 1181 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 98 "SDRAM_A06"
+Po 1181 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "C16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 99 "SDRAM_A07"
+Po 1181 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 74 "GPMC_AD5"
+Po 1575 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 1575 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 84 "GPMC_CSN1"
+Po 1575 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 1575 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 32 "BANK0_21"
+Po 1575 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 34 "BANK0_23"
+Po 1575 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 18 "3.3V_Banks"
+Po 1575 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 40 "BANK0_29"
+Po 1575 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 44 "BANK0_32"
+Po 1575 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 18 "3.3V_Banks"
+Po 1575 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 51 "BANK0_39"
+Po 1575 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "BANK0_40"
+Po 1575 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 1575 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 100 "SDRAM_A08"
+Po 1575 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 1575 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "D16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 101 "SDRAM_A09"
+Po 1575 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 85 "GPMC_CSN2"
+Po 1969 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 77 "GPMC_AD8"
+Po 1969 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1969 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 1969 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 37 "BANK0_26"
+Po 1969 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 39 "BANK0_28"
+Po 1969 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 38 "BANK0_27"
+Po 1969 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 1969 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 45 "BANK0_33"
+Po 1969 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 47 "BANK0_35"
+Po 1969 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 95 "SDRAM_A03"
+Po 1969 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 94 "SDRAM_A02"
+Po 1969 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 14 "/FPGA_Power_Ground_MISC/TDO"
+Po 1969 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 103 "SDRAM_A11"
+Po 1969 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "E16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 104 "SDRAM_A12"
+Po 1969 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 82 "GPMC_CLK"
+Po 2362 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 66 "GPMC_AD11"
+Po 2362 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2362 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 36 "BANK0_25"
+Po 2362 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 2362 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 43 "BANK0_31"
+Po 2362 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 48 "BANK0_36"
+Po 2362 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 2362 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 93 "SDRAM_A01"
+Po 2362 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 92 "SDRAM_A00"
+Po 2362 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 109 "SDRAM_CLKE"
+Po 2362 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 108 "SDRAM_CLK"
+Po 2362 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "F16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 127 "SDRAM_UPPER_DATA_MASK"
+Po 2362 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 69 "GPMC_AD14"
+Po 2756 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 2756 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 2756 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "1.2V"
+Po 2756 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 2756 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "1.2V"
+Po 2756 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 2756 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2756 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 102 "SDRAM_A10"
+Po 2756 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 2756 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 118 "SDRAM_DATA08"
+Po 2756 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 2756 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "G16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 126 "SDRAM_LOWER_DATA_MASK"
+Po 2756 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 70 "GPMC_AD15"
+Po 3150 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 65 "GPMC_AD10"
+Po 3150 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 3150 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 3150 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "1.2V"
+Po 3150 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 3150 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "1.2V"
+Po 3150 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3150 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 3150 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 106 "SDRAM_BANK_SELECT1"
+Po 3150 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 105 "SDRAM_BANK_SELECT0"
+Po 3150 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 117 "SDRAM_DATA07"
+Po 3150 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "H16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 116 "SDRAM_DATA06"
+Po 3150 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 78 "GPMC_AD9"
+Po 3543 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 3543 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 3543 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "1.2V"
+Po 3543 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 3543 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "1.2V"
+Po 3543 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 3543 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3543 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 107 "SDRAM_CHIP_SELECT"
+Po 3543 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 91 "ROW_ADDRESS_STROBE"
+Po 3543 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 3543 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "J16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 115 "SDRAM_DATA05"
+Po 3543 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 67 "GPMC_AD12"
+Po 3937 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 68 "GPMC_AD13"
+Po 3937 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 3937 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 3937 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "1.2V"
+Po 3937 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 3937 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "1.2V"
+Po 3937 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3937 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 3937 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 60 "COLUMN_ADDRESS_STROBE"
+Po 3937 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 128 "SDRAM_WRITE_EN"
+Po 3937 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "K16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 113 "SDRAM_DATA03"
+Po 3937 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 87 "GPMC_WEN"
+Po 4331 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 4331 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 4331 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 4331 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4331 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 112 "SDRAM_DATA02"
+Po 4331 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 119 "SDRAM_DATA09"
+Po 4331 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 4331 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "L16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 114 "SDRAM_DATA04"
+Po 4331 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 81 "GPMC_BEON_CLE"
+Po 4724 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 86 "GPMC_OEN"
+Po 4724 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 4724 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4724 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 111 "SDRAM_DATA01"
+Po 4724 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 61 "DOUT_BUSY"
+Po 4724 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 121 "SDRAM_DATA11"
+Po 4724 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "M16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 120 "SDRAM_DATA10"
+Po 4724 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 79 "GPMC_ADVN_ALE"
+Po 5118 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 5118 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 5118 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 5118 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "/FPGA_Bank_2/M1"
+Po 5118 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5118 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 5118 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 129 "SPI0_CS0"
+Po 5118 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 5118 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "N16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 130 "SPI0_D1"
+Po 5118 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 72 "GPMC_AD3"
+Po 5512 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 71 "GPMC_AD2"
+Po 5512 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 5512 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "/FPGA_Bank_2/SPI0_D0"
+Po 5512 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5512 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/FPGA_Bank_2/DONE"
+Po 5512 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 5512 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 123 "SDRAM_DATA13"
+Po 5512 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "P16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 122 "SDRAM_DATA12"
+Po 5512 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 76 "GPMC_AD7"
+Po 5906 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 75 "GPMC_AD6"
+Po 5906 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "/FPGA_Bank_2/INIT_B"
+Po 5906 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 5906 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 5906 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 5906 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 5906 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "/FPGA_Bank_2/SPI0_CLK"
+Po 5906 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5906 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "3.3V"
+Po 5906 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 110 "SDRAM_DATA00"
+Po 5906 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 125 "SDRAM_DATA15"
+Po 5906 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "R16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 124 "SDRAM_DATA14"
+Po 5906 -6299
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T1" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 6299 -394
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T2" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "/FPGA_Bank_2/PROGRAM_B"
+Po 6299 -787
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T3" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 89 "N-000135"
+Po 6299 -1181
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T4" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 90 "N-000159"
+Po 6299 -1575
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T5" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "/FPGA_Bank_2/RDWR_B"
+Po 6299 -1969
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T6" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -2362
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T7" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "/FPGA_Bank_2/GCLK"
+Po 6299 -2756
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T8" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "/FPGA_Bank_2/I2C_SCL"
+Po 6299 -3150
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T9" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "/FPGA_Bank_2/I2C2_SDA"
+Po 6299 -3543
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T10" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/FPGA_Bank_2/CSI_B"
+Po 6299 -3937
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T11" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/FPGA_Bank_2/CMPMISO"
+Po 6299 -4331
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T12" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -4724
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T13" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6299 -5118
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T14" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 80 "GPMC_BE1N"
+Po 6299 -5512
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T15" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 59 "BONE_INTERRUPT"
+Po 6299 -5906
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "T16" C 197 197 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 62 "GND"
+Po 6299 -6299
+.LocalClearance 39
+$EndPAD
+$EndMODULE  XC6SLX25FTG256
 $EndLIBRARY

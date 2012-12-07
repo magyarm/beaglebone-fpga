@@ -1,4 +1,4 @@
-update=Mon Oct 22 22:27:17 2012
+update=Thu Nov 29 21:55:52 2012
 last_client=cvpcb
 [pcbnew]
 [pcbnew/libraries]
@@ -14,6 +14,7 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=bonefpga
+LibName13=XC6SLX25FTG256
 LibDir=/home/mike/bonefpga/HardwareDesignFiles/lib
 [cvpcb]
 version=1
