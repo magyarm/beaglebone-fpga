@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu Nov 29 21:54:04 2012
+EESchema Schematic File Version 2  date Mon Dec 31 10:49:23 2012
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 7
 Title "FPGA Configuration, IOE, Global CLK, GPMC/I2C/SPI Connections"
-Date "30 nov 2012"
+Date "31 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 8900 900 
+Wire Wire Line
+	8900 850  8900 950 
+Connection ~ 10250 900 
+Wire Wire Line
+	10250 850  10250 950 
 Wire Wire Line
 	8200 2250 8200 2200
 Wire Wire Line
@@ -326,6 +332,14 @@ Wire Wire Line
 	8600 3150 8600 3100
 Wire Wire Line
 	8600 2650 8600 2600
+Wire Wire Line
+	10250 900  10200 900 
+Wire Wire Line
+	8900 900  8800 900 
+Text GLabel 10200 900  0    60   Input ~ 0
++5V_supply
+Text GLabel 8800 900  0    60   Input ~ 0
++5V_supply
 $Comp
 L GND #PWR06
 U 1 1 509EB5DF
@@ -587,8 +601,6 @@ NoConn ~ 8900 1850
 NoConn ~ 8900 1750
 NoConn ~ 8900 1250
 NoConn ~ 8900 1050
-NoConn ~ 8900 950 
-NoConn ~ 8900 850 
 NoConn ~ 8900 750 
 NoConn ~ 10250 2850
 NoConn ~ 10250 2750
@@ -607,8 +619,6 @@ NoConn ~ 8600 5900
 NoConn ~ 10250 1250
 NoConn ~ 10250 1150
 NoConn ~ 10250 1050
-NoConn ~ 10250 950 
-NoConn ~ 10250 850 
 NoConn ~ 1850 6450
 NoConn ~ 1850 6350
 NoConn ~ 1850 6250

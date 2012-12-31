@@ -3,6 +3,12 @@ beaglebone-fpga
 
 My attempt at making an FPGA add-on cape for the Beaglebone.
 
+
+2012/12/31
+
+This commit is many more clean up and small placement changes to help make sure the board can be manufactured. This commit is also the version that is being entered in the beaglebone cape contest. The file bonefpga.ods contains the BOM list, itemized BOM, and the pin assignments I'm using for the GPMC interface, the fpga GPIO that are broken out, and the SDRAM interface. I believe it to be mostly accurate, but will update if I notice any erors.
+
+
 2012/11/10
 
 The board is now been redesigned to use 4 layers, has external SDRAM, and completely new power supplies. It only took almost a month to finishing routing everything. It's right now off to the manufacturer for a new qoute, and to see if they spot any problems. With any luck prototypes will be in hand soon.
